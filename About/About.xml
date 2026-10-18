@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Cheat Genes By Lilly</name>
+	<author>Lilly</author>
+	<packageId>Lilly.cheatgenes</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>ludeon.rimworld.biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+	</modDependencies>
+	<description>Cheat Genes adds around 275 overpowered genes for building custom xenotypes and xenogerms in the gene editor. Everything is optional, and every gene is sorted into a category starting with "Cheat:" so it is easy to find.
+
+WHAT'S INCLUDED
+- Presets: Speedster, Strongman, Invulnerable, God, Super-Duper Psychic, Technomancer and Kraltech, with extra effects when Odyssey, Anomaly, Ideology, Kraltech or Vanilla Psycasts Expanded are loaded.
+- Gene Points: genes that give complexity, metabolism and archite room for your builds.
+- Yields &amp; Harvest: meat, leather, mining, plant harvest, drug harvest, animal gather, fishing and butchery, each in 2x, 3x, 4x and 10x tiers (one tier per stat).
+- Single-stat genes, grouped into Work Speed, Movement &amp; Carrying, Combat, Health &amp; Survival, Mind &amp; Social, Animals &amp; Hunting, and Psychic, Mech &amp; Anomaly.
+- Disable Needs and Immunities (diseases and injuries).
+- Modded Stats: Kraltech and Vanilla Expanded genes that only appear when that mod is loaded.
+Labels show the real value, for example "Move Speed +9", which most stats display in-game as +900%.
+
+REQUIREMENTS
+- Biotech.
+- Supports RimWorld 1.4 to 1.7.
+- Genes that use Royalty, Ideology, Anomaly, Odyssey or other mod content only load when that content is active.
+
+KNOWN ISSUES
+- Technomancer: only add it after the pawn is a mechanitor with the mech upgrade chips, or the game can freeze.
+- God and Super-Duper Psychic have huge psychic sensitivity, so psychic mood penalties are huge. Both also get a very low mental break threshold so those pawns do not snap.
+- Cheat yields can flood the map with items. Use the lower tiers if performance suffers.
+
+CREDITS
+Based on Cheat Genes by antisocialian. Updated for 1.7, reorganized and expanded by dunforgor.</description>
+</ModMetaData>

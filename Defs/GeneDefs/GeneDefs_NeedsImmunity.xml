@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>RestImmunity</defName>
+		<label>No Rest Need</label>
+		<description>Cheat gene. Removes the Rest need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Rest</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>FoodImmunity</defName>
+		<label>No Food Need</label>
+		<description>Cheat gene. Removes the Food need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Food</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>JoyImmunity</defName>
+		<label>No Joy Need</label>
+		<description>Cheat gene. Removes the Joy need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Joy</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>BeautyImmunity</defName>
+		<label>No Beauty Need</label>
+		<description>Cheat gene. Removes the Beauty need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Beauty</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>ComfortImmunity</defName>
+		<label>No Comfort Need</label>
+		<description>Cheat gene. Removes the Comfort need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Comfort</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>OutdoorsImmunity</defName>
+		<label>No Outdoors Need</label>
+		<description>Cheat gene. Removes the Outdoors need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Outdoors</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>IndoorsImmunity</defName>
+		<label>No Indoors Need</label>
+		<description>Cheat gene. Removes the Indoors need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Indoors</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef MayRequire="Ludeon.RimWorld.Ideology" ParentName="CheatsDisablesNeeds">
+		<defName>DrugDesireImmunity</defName>
+		<label>No Drug Desire Need</label>
+		<description>Cheat gene. Removes the Drug Desire need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<disablesNeeds>
+			<li>DrugDesire</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>RoomSizeImmunity</defName>
+		<label>No Room Size Need</label>
+		<description>Cheat gene. Removes the Room Size need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<disablesNeeds>
+			<li>RoomSize</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>DeathrestImmunity</defName>
+		<label>No Deathrest Need</label>
+		<description>Cheat gene. Removes the Deathrest need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Deathrest</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>KillThirstImmunity</defName>
+		<label>No Kill Thirst Need</label>
+		<description>Cheat gene. Removes the Kill Thirst need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<disablesNeeds>
+			<li>KillThirst</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>LearningImmunity</defName>
+		<label>No Learning Need</label>
+		<description>Cheat gene. Removes the Learning need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Learning</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsDisablesNeeds">
+		<defName>PlayImmunity</defName>
+		<label>No Play Need</label>
+		<description>Cheat gene. Removes the Play need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Play</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<GeneDef MayRequire="Ludeon.RimWorld.Ideology" ParentName="CheatsDisablesNeeds">
+		<defName>SuppressionImmunity</defName>
+		<label>No Suppression Need</label>
+		<description>Cheat gene. Removes the Suppression need entirely.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<disablesNeeds>
+			<li>Suppression</li>
+		</disablesNeeds>
+	</GeneDef>
+	
+	<!-- More Needs may be available to do this with, there was an entry i'd done and then commented out for Food need being removed as well, so I don't know what else would work and what wouldn't work -->
+</Defs>

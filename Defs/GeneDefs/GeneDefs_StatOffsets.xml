@@ -1,0 +1,2444 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Single-stat cheat genes, grouped by category. defNames are kept as-is so old saves still load; the labels show the real value. -->
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AnimalGatherYield2x</defName>
+		<label>Animal Gather Yield 2x</label>
+		<description>Cheat gene. Multiplies the milk/wool this pawn gets from animals by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_AnimalGatherYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<AnimalGatherYield>1</AnimalGatherYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AnimalGatherYield3x</defName>
+		<label>Animal Gather Yield 3x</label>
+		<description>Cheat gene. Multiplies the milk/wool this pawn gets from animals by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_AnimalGatherYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<AnimalGatherYield>2</AnimalGatherYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AnimalGatherYield4x</defName>
+		<label>Animal Gather Yield 4x</label>
+		<description>Cheat gene. Multiplies the milk/wool this pawn gets from animals by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_AnimalGatherYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<AnimalGatherYield>3</AnimalGatherYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AnimalGatherYield999</defName>
+		<label>Animal Gather Yield 10x</label>
+		<description>Cheat gene. Multiplies the milk/wool this pawn gets from animals by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_AnimalGatherYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<AnimalGatherYield>9</AnimalGatherYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ButcheryFleshEfficiency2x</defName>
+		<label>Butchery Flesh Efficiency 2x</label>
+		<description>Cheat gene. Multiplies the meat this pawn gets when butchering by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_ButcheryFleshEfficiency</li>
+		</exclusionTags>
+		<statOffsets>
+			<ButcheryFleshEfficiency>1</ButcheryFleshEfficiency>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ButcheryFleshEfficiency3x</defName>
+		<label>Butchery Flesh Efficiency 3x</label>
+		<description>Cheat gene. Multiplies the meat this pawn gets when butchering by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_ButcheryFleshEfficiency</li>
+		</exclusionTags>
+		<statOffsets>
+			<ButcheryFleshEfficiency>2</ButcheryFleshEfficiency>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ButcheryFleshEfficiency4x</defName>
+		<label>Butchery Flesh Efficiency 4x</label>
+		<description>Cheat gene. Multiplies the meat this pawn gets when butchering by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_ButcheryFleshEfficiency</li>
+		</exclusionTags>
+		<statOffsets>
+			<ButcheryFleshEfficiency>3</ButcheryFleshEfficiency>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ButcheryFleshEfficiency999</defName>
+		<label>Butchery Flesh Efficiency 10x</label>
+		<description>Cheat gene. Multiplies the meat this pawn gets when butchering by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_ButcheryFleshEfficiency</li>
+		</exclusionTags>
+		<statOffsets>
+			<ButcheryFleshEfficiency>9</ButcheryFleshEfficiency>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DrugHarvestYield2x</defName>
+		<label>Drug Plant Harvest Yield 2x</label>
+		<description>Cheat gene. Multiplies the drug plants this pawn gets from harvesting by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_DrugHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<DrugHarvestYield>1</DrugHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DrugHarvestYield3x</defName>
+		<label>Drug Plant Harvest Yield 3x</label>
+		<description>Cheat gene. Multiplies the drug plants this pawn gets from harvesting by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_DrugHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<DrugHarvestYield>2</DrugHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DrugHarvestYield4x</defName>
+		<label>Drug Plant Harvest Yield 4x</label>
+		<description>Cheat gene. Multiplies the drug plants this pawn gets from harvesting by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_DrugHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<DrugHarvestYield>3</DrugHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DrugHarvestYield999</defName>
+		<label>Drug Plant Harvest Yield 10x</label>
+		<description>Cheat gene. Multiplies the drug plants this pawn gets from harvesting by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_DrugHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<DrugHarvestYield>9</DrugHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="CheatsStatOffsets">
+		<defName>FishingYield2x</defName>
+		<label>Fishing Yield 2x</label>
+		<description>Cheat gene. Multiplies the fish this pawn catches by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_FishingYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<FishingYield>1</FishingYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="CheatsStatOffsets">
+		<defName>FishingYield3x</defName>
+		<label>Fishing Yield 3x</label>
+		<description>Cheat gene. Multiplies the fish this pawn catches by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_FishingYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<FishingYield>2</FishingYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="CheatsStatOffsets">
+		<defName>FishingYield4x</defName>
+		<label>Fishing Yield 4x</label>
+		<description>Cheat gene. Multiplies the fish this pawn catches by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_FishingYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<FishingYield>3</FishingYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="CheatsStatOffsets">
+		<defName>FishingYield999</defName>
+		<label>Fishing Yield 10x</label>
+		<description>Cheat gene. Multiplies the fish this pawn catches by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_FishingYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<FishingYield>9</FishingYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>LeatherAmount2x</defName>
+		<label>Leather Amount 2x</label>
+		<description>Cheat gene. Multiplies the leather you get when this pawn is butchered by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_LeatherAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<LeatherAmount>1</LeatherAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>LeatherAmount3x</defName>
+		<label>Leather Amount 3x</label>
+		<description>Cheat gene. Multiplies the leather you get when this pawn is butchered by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_LeatherAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<LeatherAmount>2</LeatherAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>LeatherAmount4x</defName>
+		<label>Leather Amount 4x</label>
+		<description>Cheat gene. Multiplies the leather you get when this pawn is butchered by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_LeatherAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<LeatherAmount>3</LeatherAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>LeatherAmount999</defName>
+		<label>Leather Amount 10x</label>
+		<description>Cheat gene. Multiplies the leather you get when this pawn is butchered by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_LeatherAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<LeatherAmount>9</LeatherAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeatAmount2x</defName>
+		<label>Meat Amount 2x</label>
+		<description>Cheat gene. Multiplies the meat you get when this pawn is butchered by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MeatAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<MeatAmount>1</MeatAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeatAmount3x</defName>
+		<label>Meat Amount 3x</label>
+		<description>Cheat gene. Multiplies the meat you get when this pawn is butchered by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>22</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MeatAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<MeatAmount>2</MeatAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeatAmount4x</defName>
+		<label>Meat Amount 4x</label>
+		<description>Cheat gene. Multiplies the meat you get when this pawn is butchered by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>23</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MeatAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<MeatAmount>3</MeatAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeatAmount999</defName>
+		<label>Meat Amount 10x</label>
+		<description>Cheat gene. Multiplies the meat you get when this pawn is butchered by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>24</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MeatAmount</li>
+		</exclusionTags>
+		<statOffsets>
+			<MeatAmount>9</MeatAmount>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MiningYield2x</defName>
+		<label>Mining Yield 2x</label>
+		<description>Cheat gene. Multiplies the resources this pawn gets from mining by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MiningYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<MiningYield>1</MiningYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MiningYield3x</defName>
+		<label>Mining Yield 3x</label>
+		<description>Cheat gene. Multiplies the resources this pawn gets from mining by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>26</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MiningYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<MiningYield>2</MiningYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MiningYield4x</defName>
+		<label>Mining Yield 4x</label>
+		<description>Cheat gene. Multiplies the resources this pawn gets from mining by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>27</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MiningYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<MiningYield>3</MiningYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MiningYield999</defName>
+		<label>Mining Yield 10x</label>
+		<description>Cheat gene. Multiplies the resources this pawn gets from mining by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>28</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_MiningYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<MiningYield>9</MiningYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PlantHarvestYield2x</defName>
+		<label>Plant Harvest Yield 2x</label>
+		<description>Cheat gene. Multiplies the crops this pawn gets from harvesting by 2 (stat offset +1).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>29</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_PlantHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<PlantHarvestYield>1</PlantHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PlantHarvestYield3x</defName>
+		<label>Plant Harvest Yield 3x</label>
+		<description>Cheat gene. Multiplies the crops this pawn gets from harvesting by 3 (stat offset +2).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_PlantHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<PlantHarvestYield>2</PlantHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PlantHarvestYield4x</defName>
+		<label>Plant Harvest Yield 4x</label>
+		<description>Cheat gene. Multiplies the crops this pawn gets from harvesting by 4 (stat offset +3).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>31</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_PlantHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<PlantHarvestYield>3</PlantHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PlantHarvestYield999</defName>
+		<label>Plant Harvest Yield 10x</label>
+		<description>Cheat gene. Multiplies the crops this pawn gets from harvesting by 10 (stat offset +9).</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Yields</displayCategory>
+		<displayOrderInCategory>32</displayOrderInCategory>
+		<exclusionTags>
+			<li>CheatYield_PlantHarvestYield</li>
+		</exclusionTags>
+		<statOffsets>
+			<PlantHarvestYield>9</PlantHarvestYield>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AnimalGatherSpeed999</defName>
+		<label>Animal Gather Speed +9</label>
+		<description>Cheat gene. Offsets Animal Gather Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<AnimalGatherSpeed>9</AnimalGatherSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ButcheryFleshSpeed999</defName>
+		<label>Butchery Flesh Speed +9</label>
+		<description>Cheat gene. Offsets Butchery Flesh Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<ButcheryFleshSpeed>9</ButcheryFleshSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ButcheryMechanoidEfficiency999</defName>
+		<label>Butchery Mechanoid Efficiency +9</label>
+		<description>Cheat gene. Offsets Butchery Mechanoid Efficiency by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<ButcheryMechanoidEfficiency>9</ButcheryMechanoidEfficiency>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ButcheryMechanoidSpeed999</defName>
+		<label>Butchery Mechanoid Speed +9</label>
+		<description>Cheat gene. Offsets Butchery Mechanoid Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<ButcheryMechanoidSpeed>9</ButcheryMechanoidSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CleaningSpeed999</defName>
+		<label>Cleaning Speed +9</label>
+		<description>Cheat gene. Offsets Cleaning Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<CleaningSpeed>9</CleaningSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ConstructSuccessChance999</defName>
+		<label>Construct Success Chance +9</label>
+		<description>Cheat gene. Offsets Construct Success Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<ConstructSuccessChance>9</ConstructSuccessChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ConstructionSpeed999</defName>
+		<label>Construction Speed +9</label>
+		<description>Cheat gene. Offsets Construction Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<ConstructionSpeed>9</ConstructionSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CookSpeed999</defName>
+		<label>Cook Speed +9</label>
+		<description>Cheat gene. Offsets Cook Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<CookSpeed>9</CookSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DeepDrillingSpeed999</defName>
+		<label>Deep Drilling Speed +9</label>
+		<description>Cheat gene. Offsets Deep Drilling Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<statOffsets>
+			<DeepDrillingSpeed>9</DeepDrillingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DrugCookingSpeed999</defName>
+		<label>Drug Cooking Speed +9</label>
+		<description>Cheat gene. Offsets Drug Cooking Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<statOffsets>
+			<DrugCookingSpeed>9</DrugCookingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DrugSynthesisSpeed999</defName>
+		<label>Drug Synthesis Speed +9</label>
+		<description>Cheat gene. Offsets Drug Synthesis Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<statOffsets>
+			<DrugSynthesisSpeed>9</DrugSynthesisSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>FilthRate-999</defName>
+		<label>Filth Rate -1</label>
+		<description>Cheat gene. Offsets Filth Rate by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<statOffsets>
+			<FilthRate>-1</FilthRate>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="CheatsStatOffsets">
+		<defName>FishingSpeed999</defName>
+		<label>Fishing Speed +9</label>
+		<description>Cheat gene. Offsets Fishing Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<statOffsets>
+			<FishingSpeed>9</FishingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>FixBrokenDownBuildingSuccessChance999</defName>
+		<label>Fix Broken Down Building Success Chance +9</label>
+		<description>Cheat gene. Offsets Fix Broken Down Building Success Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<statOffsets>
+			<FixBrokenDownBuildingSuccessChance>9</FixBrokenDownBuildingSuccessChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>GeneralLaborSpeed999</defName>
+		<label>General Labor Speed +9</label>
+		<description>Cheat gene. Offsets General Labor Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<statOffsets>
+			<GeneralLaborSpeed>9</GeneralLaborSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>HackingSpeed999</defName>
+		<label>Hacking Speed +9</label>
+		<description>Cheat gene. Offsets Hacking Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<statOffsets>
+			<HackingSpeed>9</HackingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>HackingStealth999</defName>
+		<label>Hacking Stealth +9</label>
+		<description>Cheat gene. Offsets Hacking Stealth by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<statOffsets>
+			<HackingStealth>9</HackingStealth>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MiningSpeed999</defName>
+		<label>Mining Speed +9</label>
+		<description>Cheat gene. Offsets Mining Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<statOffsets>
+			<MiningSpeed>9</MiningSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="CheatsStatOffsets">
+		<defName>PilotingAbility999</defName>
+		<label>Piloting Ability +9</label>
+		<description>Cheat gene. Offsets Piloting Ability by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<statOffsets>
+			<PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">9</PilotingAbility>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PlantWorkSpeed999</defName>
+		<label>Plant Work Speed +9</label>
+		<description>Cheat gene. Offsets Plant Work Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<statOffsets>
+			<PlantWorkSpeed>9</PlantWorkSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PruningSpeed0.25</defName>
+		<label>Pruning Speed +0.25</label>
+		<description>Cheat gene. Offsets Pruning Speed by +0.25.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<statOffsets>
+			<PruningSpeed>0.25</PruningSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ReadingSpeed999</defName>
+		<label>Reading Speed +9</label>
+		<description>Cheat gene. Offsets Reading Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>22</displayOrderInCategory>
+		<statOffsets>
+			<ReadingSpeed>9</ReadingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ResearchSpeed999</defName>
+		<label>Research Speed +9</label>
+		<description>Cheat gene. Offsets Research Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>23</displayOrderInCategory>
+		<statOffsets>
+			<ResearchSpeed>9</ResearchSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>SmeltingSpeed999</defName>
+		<label>Smelting Speed +9</label>
+		<description>Cheat gene. Offsets Smelting Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>24</displayOrderInCategory>
+		<statOffsets>
+			<SmeltingSpeed>9</SmeltingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>SmoothingSpeed999</defName>
+		<label>Smoothing Speed +9</label>
+		<description>Cheat gene. Offsets Smoothing Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		<statOffsets>
+			<SmoothingSpeed>9</SmoothingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>WorkSpeedGlobal999</defName>
+		<label>Work Speed Global +9</label>
+		<description>Cheat gene. Offsets Work Speed Global by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Work</displayCategory>
+		<displayOrderInCategory>26</displayOrderInCategory>
+		<statOffsets>
+			<WorkSpeedGlobal>9</WorkSpeedGlobal>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CaravanBonusSpeedFactor999</defName>
+		<label>Caravan Bonus Speed Factor +9</label>
+		<description>Cheat gene. Offsets Caravan Bonus Speed Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<CaravanBonusSpeedFactor>9</CaravanBonusSpeedFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CaravanRidingSpeedFactor999</defName>
+		<label>Caravan Riding Speed Factor +9</label>
+		<description>Cheat gene. Offsets Caravan Riding Speed Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<CaravanRidingSpeedFactor>9</CaravanRidingSpeedFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CarryingCapacity999</defName>
+		<label>Carrying Capacity +99</label>
+		<description>Cheat gene. Offsets Carrying Capacity by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<CarryingCapacity>99</CarryingCapacity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DoorOpenSpeed999</defName>
+		<label>Door Open Speed +9</label>
+		<description>Cheat gene. Offsets Door Open Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<DoorOpenSpeed>9</DoorOpenSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>FlightCooldown-999</defName>
+		<label>Flight Cooldown -99</label>
+		<description>Cheat gene. Offsets Flight Cooldown by -99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<FlightCooldown>-99</FlightCooldown>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="CheatsStatOffsets">
+		<defName>JumpRange999</defName>
+		<label>Jump Range +99</label>
+		<description>Cheat gene. Offsets Jump Range by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<JumpRange>99</JumpRange>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MaxFlightTime999</defName>
+		<label>Max Flight Time +99</label>
+		<description>Cheat gene. Offsets Max Flight Time by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<MaxFlightTime>99</MaxFlightTime>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MoveSpeed999</defName>
+		<label>Move Speed +9</label>
+		<description>Cheat gene. Offsets Move Speed and Crawl Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<MoveSpeed>9</MoveSpeed>
+			<CrawlSpeed>9</CrawlSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PawnTrapSpringChance-999</defName>
+		<label>Pawn Trap Spring Chance -1</label>
+		<description>Cheat gene. Offsets Pawn Trap Spring Chance by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<statOffsets>
+			<PawnTrapSpringChance>-1</PawnTrapSpringChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>TrapSpringChance-1</defName>
+		<label>Trap Spring Chance -1</label>
+		<description>Cheat gene. Offsets Trap Spring Chance by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<statOffsets>
+			<TrapSpringChance>-1</TrapSpringChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AimingDelayFactor-999</defName>
+		<label>Aiming Delay Factor -1</label>
+		<description>Cheat gene. Offsets Aiming Delay Factor by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<AimingDelayFactor>-1</AimingDelayFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ArmorRating_All999</defName>
+		<label>Armor Rating (All Types) +9</label>
+		<description>Cheat gene. Offsets Armor Rating Sharp, Blunt and Heat by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<ArmorRating_Sharp>9</ArmorRating_Sharp>
+			<ArmorRating_Blunt>9</ArmorRating_Blunt>
+			<ArmorRating_Heat>9</ArmorRating_Heat>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ArmorRating_Blunt999</defName>
+		<label>Armor Rating Blunt +9</label>
+		<description>Cheat gene. Offsets Armor Rating Blunt by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<ArmorRating_Blunt>9</ArmorRating_Blunt>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ArmorRating_Heat999</defName>
+		<label>Armor Rating Heat +9</label>
+		<description>Cheat gene. Offsets Armor Rating Heat by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<ArmorRating_Heat>9</ArmorRating_Heat>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ArmorRating_Sharp999</defName>
+		<label>Armor Rating Sharp +9</label>
+		<description>Cheat gene. Offsets Armor Rating Sharp by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<ArmorRating_Sharp>9</ArmorRating_Sharp>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>IncomingDamageFactor-1</defName>
+		<label>Incoming Damage Factor -1</label>
+		<description>Cheat gene. Offsets Incoming Damage Factor by -1. -1 means no damage taken.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<IncomingDamageFactor>-1</IncomingDamageFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>IncomingDamageFactor-999</defName>
+		<label>Incoming Damage Factor -1 (copy)</label>
+		<description>Cheat gene. Offsets Incoming Damage Factor by -1. -1 means no damage taken.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<IncomingDamageFactor>-1</IncomingDamageFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeArmorPenetration999</defName>
+		<label>Melee Armor Penetration +9</label>
+		<description>Cheat gene. Offsets Melee Armor Penetration by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<MeleeArmorPenetration>9</MeleeArmorPenetration>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeCooldownFactor0.001</defName>
+		<label>Melee Cooldown Factor -0.75</label>
+		<description>Cheat gene. Offsets Melee Cooldown Factor by -0.75. -0.75 means melee attacks come about 4x as fast.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<statOffsets>
+			<MeleeCooldownFactor>-0.75</MeleeCooldownFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeDamageFactor999</defName>
+		<label>Melee Damage Factor +9</label>
+		<description>Cheat gene. Offsets Melee Damage Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<statOffsets>
+			<MeleeDamageFactor>9</MeleeDamageFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeDodgeChance999</defName>
+		<label>Melee Dodge Chance +9</label>
+		<description>Cheat gene. Offsets Melee Dodge Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<statOffsets>
+			<MeleeDodgeChance>9</MeleeDodgeChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeDodgeChanceIndoorsDarkOffset999</defName>
+		<label>Melee Dodge Chance Indoors Dark Offset +9</label>
+		<description>Cheat gene. Offsets Melee Dodge Chance Indoors Dark Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<statOffsets>
+			<MeleeDodgeChanceIndoorsDarkOffset>9</MeleeDodgeChanceIndoorsDarkOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeDodgeChanceIndoorsLitOffset999</defName>
+		<label>Melee Dodge Chance Indoors Lit Offset +9</label>
+		<description>Cheat gene. Offsets Melee Dodge Chance Indoors Lit Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<statOffsets>
+			<MeleeDodgeChanceIndoorsLitOffset>9</MeleeDodgeChanceIndoorsLitOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeDodgeChanceOutdoorsDarkOffset999</defName>
+		<label>Melee Dodge Chance Outdoors Dark Offset +9</label>
+		<description>Cheat gene. Offsets Melee Dodge Chance Outdoors Dark Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<statOffsets>
+			<MeleeDodgeChanceOutdoorsDarkOffset>9</MeleeDodgeChanceOutdoorsDarkOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeDodgeChanceOutdoorsLitOffset999</defName>
+		<label>Melee Dodge Chance Outdoors Lit Offset +9</label>
+		<description>Cheat gene. Offsets Melee Dodge Chance Outdoors Lit Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<statOffsets>
+			<MeleeDodgeChanceOutdoorsLitOffset>9</MeleeDodgeChanceOutdoorsLitOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeHitChance999</defName>
+		<label>Melee Hit Chance +9</label>
+		<description>Cheat gene. Offsets Melee Hit Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<statOffsets>
+			<MeleeHitChance>9</MeleeHitChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeHitChanceIndoorsLitOffset999</defName>
+		<label>Melee Hit Chance Indoors Lit Offset +9</label>
+		<description>Cheat gene. Offsets Melee Hit Chance Indoors Lit Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<statOffsets>
+			<MeleeHitChanceIndoorsLitOffset>9</MeleeHitChanceIndoorsLitOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MeleeHitChanceOutdoorsDarkOffset999</defName>
+		<label>Melee Hit Chance Outdoors Dark Offset +9</label>
+		<description>Cheat gene. Offsets Melee Hit Chance Outdoors Dark Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<statOffsets>
+			<MeleeHitChanceOutdoorsDarkOffset>9</MeleeHitChanceOutdoorsDarkOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MortarMissRadiusFactor-999</defName>
+		<label>Mortar Miss Radius Factor -1</label>
+		<description>Cheat gene. Offsets Mortar Miss Radius Factor by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<statOffsets>
+			<MortarMissRadiusFactor>-1</MortarMissRadiusFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyFactor_Long999</defName>
+		<label>Shooting Accuracy Factor Long +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Factor Long by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyFactor_Long>9</ShootingAccuracyFactor_Long>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyFactor_Medium999</defName>
+		<label>Shooting Accuracy Factor Medium +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Factor Medium by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyFactor_Medium>9</ShootingAccuracyFactor_Medium>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyFactor_Short999</defName>
+		<label>Shooting Accuracy Factor Short +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Factor Short by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>22</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyFactor_Short>9</ShootingAccuracyFactor_Short>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyFactor_Touch999</defName>
+		<label>Shooting Accuracy Factor Touch +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Factor Touch by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>23</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyFactor_Touch>9</ShootingAccuracyFactor_Touch>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyIndoorsDarkOffset999</defName>
+		<label>Shooting Accuracy Indoors Dark Offset +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Indoors Dark Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>24</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyIndoorsDarkOffset>9</ShootingAccuracyIndoorsDarkOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyIndoorsLitOffset999</defName>
+		<label>Shooting Accuracy Indoors Lit Offset +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Indoors Lit Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyIndoorsLitOffset>9</ShootingAccuracyIndoorsLitOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyOutdoorsDarkOffset999</defName>
+		<label>Shooting Accuracy Outdoors Dark Offset +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Outdoors Dark Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>26</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyOutdoorsDarkOffset>9</ShootingAccuracyOutdoorsDarkOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyOutdoorsLitOffset999</defName>
+		<label>Shooting Accuracy Outdoors Lit Offset +9</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Outdoors Lit Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>27</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyOutdoorsLitOffset>9</ShootingAccuracyOutdoorsLitOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ShootingAccuracyPawn8</defName>
+		<label>Shooting Accuracy Pawn +8</label>
+		<description>Cheat gene. Offsets Shooting Accuracy Pawn by +8.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>28</displayOrderInCategory>
+		<statOffsets>
+			<ShootingAccuracyPawn>8</ShootingAccuracyPawn>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>StaggerDurationFactor-999</defName>
+		<label>Stagger Duration Factor -1</label>
+		<description>Cheat gene. Offsets Stagger Duration Factor by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>29</displayOrderInCategory>
+		<statOffsets>
+			<StaggerDurationFactor>-1</StaggerDurationFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>SuppressionPower999</defName>
+		<label>Suppression Power +9</label>
+		<description>Cheat gene. Offsets Suppression Power by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Combat</displayCategory>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<statOffsets>
+			<SuppressionPower>9</SuppressionPower>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>BiosculpterOccupantSpeed999</defName>
+		<label>Biosculpter Occupant Speed +9</label>
+		<description>Cheat gene. Offsets Biosculpter Occupant Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<BiosculpterOccupantSpeed>9</BiosculpterOccupantSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ComfyTemperatureMax999</defName>
+		<label>Comfy Temperature Max +99</label>
+		<description>Cheat gene. Offsets Comfy Temperature Max by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMax>99</ComfyTemperatureMax>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ComfyTemperatureMin-999</defName>
+		<label>Comfy Temperature Min -99</label>
+		<description>Cheat gene. Offsets Comfy Temperature Min by -99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<ComfyTemperatureMin>-99</ComfyTemperatureMin>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>EatingSpeed999</defName>
+		<label>Eating Speed +9</label>
+		<description>Cheat gene. Offsets Eating Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<EatingSpeed>9</EatingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequireAnyOf="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Anomaly" ParentName="CheatsStatOffsets">
+		<defName>EMPResistance999</defName>
+		<label>EMP Resistance +9</label>
+		<description>Cheat gene. Offsets EMP Resistance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<EMPResistance MayRequireAnyOf="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Anomaly">9</EMPResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="CheatsStatOffsets">
+		<defName>Fertility-999</defName>
+		<label>Fertility -1</label>
+		<description>Cheat gene. Offsets Fertility by -1. -1 means sterile.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<Fertility MayRequire="Ludeon.RimWorld.Biotech">-1</Fertility>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="CheatsStatOffsets">
+		<defName>Fertility999</defName>
+		<label>Fertility +9</label>
+		<description>Cheat gene. Offsets Fertility by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<Fertility MayRequire="Ludeon.RimWorld.Biotech">9</Fertility>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>Flammability-999</defName>
+		<label>Flammability -1</label>
+		<description>Cheat gene. Offsets Flammability by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<Flammability>-1</Flammability>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>FoodPoisonChance-999</defName>
+		<label>Food Poison Chance -1</label>
+		<description>Cheat gene. Offsets Food Poison Chance by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<statOffsets>
+			<FoodPoisonChance>-1</FoodPoisonChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ForagedNutritionPerDay999</defName>
+		<label>Foraged Nutrition Per Day +99</label>
+		<description>Cheat gene. Offsets Foraged Nutrition Per Day by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<statOffsets>
+			<ForagedNutritionPerDay>99</ForagedNutritionPerDay>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>GrowthVatOccupantSpeed999</defName>
+		<label>Growth Vat Occupant Speed +9</label>
+		<description>Cheat gene. Offsets Growth Vat Occupant Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<statOffsets>
+			<GrowthVatOccupantSpeed>9</GrowthVatOccupantSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>HemogenGainFactor999</defName>
+		<label>Hemogen Gain Factor +9</label>
+		<description>Cheat gene. Offsets Hemogen Gain Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<statOffsets>
+			<HemogenGainFactor>9</HemogenGainFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ImmunityGainSpeed999</defName>
+		<label>Immunity Gain Speed +9</label>
+		<description>Cheat gene. Offsets Immunity Gain Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<statOffsets>
+			<ImmunityGainSpeed>9</ImmunityGainSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>InjuryHealingFactor999</defName>
+		<label>Injury Healing Factor +9</label>
+		<description>Cheat gene. Offsets Injury Healing Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<statOffsets>
+			<InjuryHealingFactor>9</InjuryHealingFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>LifespanFactor999</defName>
+		<label>Lifespan Factor +9</label>
+		<description>Cheat gene. Offsets Lifespan Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<statOffsets>
+			<LifespanFactor>9</LifespanFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MedicalOperationSpeed999</defName>
+		<label>Medical Operation Speed +9</label>
+		<description>Cheat gene. Offsets Medical Operation Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<statOffsets>
+			<MedicalOperationSpeed>9</MedicalOperationSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MedicalSurgerySuccessChance999</defName>
+		<label>Medical Surgery Success Chance +9</label>
+		<description>Cheat gene. Offsets Medical Surgery Success Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<statOffsets>
+			<MedicalSurgerySuccessChance>9</MedicalSurgerySuccessChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MedicalTendQuality999</defName>
+		<label>Medical Tend Quality +9</label>
+		<description>Cheat gene. Offsets Medical Tend Quality by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<statOffsets>
+			<MedicalTendQuality>9</MedicalTendQuality>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MedicalTendSpeed999</defName>
+		<label>Medical Tend Speed +9</label>
+		<description>Cheat gene. Offsets Medical Tend Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<statOffsets>
+			<MedicalTendSpeed>9</MedicalTendSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PainShockThreshold999</defName>
+		<label>Pain Shock Threshold +9</label>
+		<description>Cheat gene. Offsets Pain Shock Threshold by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<statOffsets>
+			<PainShockThreshold>9</PainShockThreshold>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Biotech" ParentName="CheatsStatOffsets">
+		<defName>RawNutritionFactor999</defName>
+		<label>Raw Nutrition Factor +9</label>
+		<description>Cheat gene. Offsets Raw Nutrition Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<statOffsets>
+			<RawNutritionFactor MayRequire="Ludeon.RimWorld.Biotech">9</RawNutritionFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>RestFallRateFactor0</defName>
+		<label>Rest Fall Rate Factor -1</label>
+		<description>Cheat gene. Offsets Rest Fall Rate Factor by -1. -1 means the Rest need never drops.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>22</displayOrderInCategory>
+		<statOffsets>
+			<RestFallRateFactor>-1</RestFallRateFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>RestRateMultiplier999</defName>
+		<label>Rest Rate Multiplier +9</label>
+		<description>Cheat gene. Offsets Rest Rate Multiplier by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>23</displayOrderInCategory>
+		<statOffsets>
+			<RestRateMultiplier>9</RestRateMultiplier>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ToxicEnvironmentResistance1</defName>
+		<label>Toxic Environment Resistance +1</label>
+		<description>Cheat gene. Offsets Toxic Environment Resistance by +1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>24</displayOrderInCategory>
+		<statOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="CheatsStatOffsets">
+		<defName>VacuumResistance999</defName>
+		<label>Vacuum Resistance +9</label>
+		<description>Cheat gene. Offsets Vacuum Resistance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Health</displayCategory>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		<statOffsets>
+			<VacuumResistance>9</VacuumResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>ArrestSuccessChance999</defName>
+		<label>Arrest Success Chance +9</label>
+		<description>Cheat gene. Offsets Arrest Success Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<ArrestSuccessChance>9</ArrestSuccessChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Ideology" ParentName="CheatsStatOffsets">
+		<defName>CertaintyLossFactor-999</defName>
+		<label>Certainty Loss Factor -1</label>
+		<description>Cheat gene. Offsets Certainty Loss Factor by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<CertaintyLossFactor>-1</CertaintyLossFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>DrugSellPriceImprovement999</defName>
+		<label>Drug Sell Price Improvement +9</label>
+		<description>Cheat gene. Offsets Drug Sell Price Improvement by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<DrugSellPriceImprovement>9</DrugSellPriceImprovement>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>GlobalLearningFactor999</defName>
+		<label>Global Learning Factor +9</label>
+		<description>Cheat gene. Offsets Global Learning Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<GlobalLearningFactor>9</GlobalLearningFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>JoyFallRateFactor-999</defName>
+		<label>Joy Fall Rate Factor -1</label>
+		<description>Cheat gene. Offsets Joy Fall Rate Factor by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<JoyFallRateFactor>-1</JoyFallRateFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>LearningRateFactor999</defName>
+		<label>Learning Rate Factor +9</label>
+		<description>Cheat gene. Offsets Learning Rate Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<LearningRateFactor>9</LearningRateFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MentalBreakThreshold-999</defName>
+		<label>Mental Break Threshold -1</label>
+		<description>Cheat gene. Offsets Mental Break Threshold by -1. Strongly negative means the pawn practically never has mental breaks.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<MentalBreakThreshold>-1</MentalBreakThreshold>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>NegotiationAbility999</defName>
+		<label>Negotiation Ability +9</label>
+		<description>Cheat gene. Offsets Negotiation Ability by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<NegotiationAbility>9</NegotiationAbility>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PawnBeauty999</defName>
+		<label>Pawn Beauty +99</label>
+		<description>Cheat gene. Offsets Pawn Beauty by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<statOffsets>
+			<PawnBeauty>99</PawnBeauty>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Ideology" ParentName="CheatsStatOffsets">
+		<defName>SlaveSuppressionFallRate-999</defName>
+		<label>Slave Suppression Fall Rate -1</label>
+		<description>Cheat gene. Offsets Slave Suppression Fall Rate by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<statOffsets>
+			<SlaveSuppressionFallRate>-1</SlaveSuppressionFallRate>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Ideology" ParentName="CheatsStatOffsets">
+		<defName>SocialIdeoSpreadFrequencyFactor999</defName>
+		<label>Social Ideo Spread Frequency Factor +9</label>
+		<description>Cheat gene. Offsets Social Ideo Spread Frequency Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<statOffsets>
+			<SocialIdeoSpreadFrequencyFactor>9</SocialIdeoSpreadFrequencyFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>SocialImpact999</defName>
+		<label>Social Impact +9</label>
+		<description>Cheat gene. Offsets Social Impact by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<statOffsets>
+			<SocialImpact>9</SocialImpact>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>TradePriceImprovement999</defName>
+		<label>Trade Price Improvement +9</label>
+		<description>Cheat gene. Offsets Trade Price Improvement by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Mind</displayCategory>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<statOffsets>
+			<TradePriceImprovement>9</TradePriceImprovement>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AnimalProductsSellImprovement999</defName>
+		<label>Animal Products Sell Improvement +9</label>
+		<description>Cheat gene. Offsets Animal Products Sell Improvement by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Animals</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<AnimalProductsSellImprovement>9</AnimalProductsSellImprovement>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>AnimalsLearningFactor999</defName>
+		<label>Animals Learning Factor +9</label>
+		<description>Cheat gene. Offsets Animals Learning Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Animals</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<AnimalsLearningFactor>9</AnimalsLearningFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>BondAnimalChanceFactor999</defName>
+		<label>Bond Animal Chance Factor +9</label>
+		<description>Cheat gene. Offsets Bond Animal Chance Factor by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Animals</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<BondAnimalChanceFactor>9</BondAnimalChanceFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>HuntingStealth999</defName>
+		<label>Hunting Stealth +9</label>
+		<description>Cheat gene. Offsets Hunting Stealth by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Animals</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<HuntingStealth>9</HuntingStealth>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>TameAnimalChance999</defName>
+		<label>Tame Animal Chance +9</label>
+		<description>Cheat gene. Offsets Tame Animal Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Animals</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<TameAnimalChance>9</TameAnimalChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>TrainAnimalChance999</defName>
+		<label>Train Animal Chance +9</label>
+		<description>Cheat gene. Offsets Train Animal Chance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Animals</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<TrainAnimalChance>9</TrainAnimalChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>Wildness-999</defName>
+		<label>Wildness -1</label>
+		<description>Cheat gene. Offsets Wildness by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Animals</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<Wildness>-1</Wildness>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Anomaly" ParentName="CheatsStatOffsets">
+		<defName>ActivitySuppressionRate999</defName>
+		<label>Activity Suppression Rate +9</label>
+		<description>Cheat gene. Offsets Activity Suppression Rate by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<ActivitySuppressionRate MayRequire="Ludeon.RimWorld.Anomaly">9</ActivitySuppressionRate>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Anomaly" ParentName="CheatsStatOffsets">
+		<defName>EntityStudyRate999</defName>
+		<label>Entity Study Rate +9</label>
+		<description>Cheat gene. Offsets Entity Study Rate by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<EntityStudyRate>9</EntityStudyRate>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MechBandwidth99</defName>
+		<label>Mech Bandwidth +50</label>
+		<description>Cheat gene. Offsets Mech Bandwidth by +50.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<MechBandwidth>50</MechBandwidth>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MechControlGroups99</defName>
+		<label>Mech Control Groups +5</label>
+		<description>Cheat gene. Offsets Mech Control Groups by +5.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<MechControlGroups>5</MechControlGroups>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MechFormingSpeed999</defName>
+		<label>Mech Forming Speed +9</label>
+		<description>Cheat gene. Offsets Mech Forming Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<MechFormingSpeed>9</MechFormingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MechRemoteRepairDistance9</defName>
+		<label>Mech Remote Repair Distance +9</label>
+		<description>Cheat gene. Offsets Mech Remote Repair Distance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<MechRemoteRepairDistance>9</MechRemoteRepairDistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MechRemoteShieldDistance9</defName>
+		<label>Mech Remote Shield Distance +9</label>
+		<description>Cheat gene. Offsets Mech Remote Shield Distance by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<MechRemoteShieldDistance>9</MechRemoteShieldDistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MechRemoteShieldEnergy999</defName>
+		<label>Mech Remote Shield Energy +9</label>
+		<description>Cheat gene. Offsets Mech Remote Shield Energy by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<MechRemoteShieldEnergy>9</MechRemoteShieldEnergy>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>MechRepairSpeed999</defName>
+		<label>Mech Repair Speed +9</label>
+		<description>Cheat gene. Offsets Mech Repair Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<statOffsets>
+			<MechRepairSpeed>9</MechRepairSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech" ParentName="CheatsStatOffsets">
+		<defName>MeditationFocusGain999</defName>
+		<label>Meditation Focus Gain +9</label>
+		<description>Cheat gene. Offsets Meditation Focus Gain by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<statOffsets>
+			<MeditationFocusGain MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">9</MeditationFocusGain>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Royalty" ParentName="CheatsStatOffsets">
+		<defName>MeditationPlantGrowthOffset999</defName>
+		<label>Meditation Plant Growth Offset +9</label>
+		<description>Cheat gene. Offsets Meditation Plant Growth Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<statOffsets>
+			<MeditationPlantGrowthOffset>9</MeditationPlantGrowthOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Anomaly" ParentName="CheatsStatOffsets">
+		<defName>MinimumContainmentStrength-1</defName>
+		<label>Minimum Containment Strength -1</label>
+		<description>Cheat gene. Offsets Minimum Containment Strength by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<statOffsets>
+			<MinimumContainmentStrength>-1</MinimumContainmentStrength>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Anomaly" ParentName="CheatsStatOffsets">
+		<defName>MinimumContainmentStrength999</defName>
+		<label>Minimum Containment Strength +99</label>
+		<description>Cheat gene. Offsets Minimum Containment Strength by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<statOffsets>
+			<MinimumContainmentStrength>99</MinimumContainmentStrength>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech" ParentName="CheatsStatOffsets">
+		<defName>PsychicEntropyGain-999</defName>
+		<label>Psychic Entropy Gain -1</label>
+		<description>Cheat gene. Offsets Psychic Entropy Gain by -1.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<statOffsets>
+			<PsychicEntropyGain MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">-1</PsychicEntropyGain>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech" ParentName="CheatsStatOffsets">
+		<defName>PsychicEntropyMax999</defName>
+		<label>Psychic Entropy Max +99</label>
+		<description>Cheat gene. Offsets Psychic Entropy Max by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<statOffsets>
+			<PsychicEntropyMax MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">99</PsychicEntropyMax>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech" ParentName="CheatsStatOffsets">
+		<defName>PsychicEntropyRecoveryRate999</defName>
+		<label>Psychic Entropy Recovery Rate +9</label>
+		<description>Cheat gene. Offsets Psychic Entropy Recovery Rate by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<statOffsets>
+			<PsychicEntropyRecoveryRate MayRequireAnyOf="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Biotech">9</PsychicEntropyRecoveryRate>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Anomaly" ParentName="CheatsStatOffsets">
+		<defName>PsychicRitualQualityOffset999</defName>
+		<label>Psychic Ritual Quality Offset +9</label>
+		<description>Cheat gene. Offsets Psychic Ritual Quality Offset by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<statOffsets>
+			<PsychicRitualQualityOffset>9</PsychicRitualQualityOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>PsychicSensitivity999</defName>
+		<label>Psychic Sensitivity +9</label>
+		<description>Cheat gene. Offsets Psychic Sensitivity by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<statOffsets>
+			<PsychicSensitivity>9</PsychicSensitivity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="Ludeon.RimWorld.Anomaly" ParentName="CheatsStatOffsets">
+		<defName>StudyEfficiency999</defName>
+		<label>Study Efficiency +9</label>
+		<description>Cheat gene. Offsets Study Efficiency by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<statOffsets>
+			<StudyEfficiency>9</StudyEfficiency>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>SubcoreEncodingSpeed999</defName>
+		<label>Subcore Encoding Speed +9</label>
+		<description>Cheat gene. Offsets Subcore Encoding Speed by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<statOffsets>
+			<SubcoreEncodingSpeed>9</SubcoreEncodingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>WorkSpeedGlobalOffsetMech999</defName>
+		<label>Work Speed Global Offset Mech +9</label>
+		<description>Cheat gene. Offsets Work Speed Global Offset Mech by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Psychic</displayCategory>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<statOffsets>
+			<WorkSpeedGlobalOffsetMech>9</WorkSpeedGlobalOffsetMech>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>AntiOrgToxinEnvironmentResistance1</defName>
+		<label>Anti Org Toxin Environment Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Anti Org Toxin Environment Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>AntiOrgToxinEnvironmentResistance999</defName>
+		<label>Anti Org Toxin Environment Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Anti Org Toxin Environment Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<statOffsets>
+			<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</AntiOrgToxinEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>AntiOrgToxinResistance1</defName>
+		<label>Anti Org Toxin Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Anti Org Toxin Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>AntiOrgToxinResistance999</defName>
+		<label>Anti Org Toxin Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Anti Org Toxin Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">9</AntiOrgToxinResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>ColdNullNaniteEnvironmentResistance1</defName>
+		<label>Cold Null Nanite Environment Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Cold Null Nanite Environment Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>ColdNullNaniteEnvironmentResistance999</defName>
+		<label>Cold Null Nanite Environment Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Cold Null Nanite Environment Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</ColdNullNaniteEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>ColdNullNaniteResistance1</defName>
+		<label>Cold Null Nanite Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Cold Null Nanite Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>ColdNullNaniteResistance999</defName>
+		<label>Cold Null Nanite Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Cold Null Nanite Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">9</ColdNullNaniteResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="vanillaexpanded.vcef" ParentName="CheatsStatOffsets">
+		<defName>VCEF_FishingLuckOffset999</defName>
+		<label>Fishing Luck Offset +9 [VCEF]</label>
+		<description>Cheat gene. Offsets Fishing Luck Offset by +9. Needs the VCEF mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<statOffsets>
+			<VCEF_FishingLuckOffset MayRequire="vanillaexpanded.vcef">9</VCEF_FishingLuckOffset>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="vanillaexpanded.vcooke" ParentName="CheatsStatOffsets">
+		<defName>VCEF_FoodCondimentChance999</defName>
+		<label>Food Condiment Chance +9 [VCE]</label>
+		<description>Cheat gene. Offsets Food Condiment Chance by +9. Needs the VCE mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<statOffsets>
+			<VCEF_FoodCondimentChance MayRequire="vanillaexpanded.vcooke">9</VCEF_FoodCondimentChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="vanillaexpanded.vcooke" ParentName="CheatsStatOffsets">
+		<defName>VCE_FoodImprovementChance999</defName>
+		<label>Food Improvement Chance +9 [VCE]</label>
+		<description>Cheat gene. Offsets Food Improvement Chance by +9. Needs the VCE mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<statOffsets>
+			<VCE_FoodImprovementChance MayRequire="vanillaexpanded.vcooke">9</VCE_FoodImprovementChance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>HeatNullNaniteEnvironmentResistance1</defName>
+		<label>Heat Null Nanite Environment Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Heat Null Nanite Environment Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<statOffsets>
+			<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>HeatNullNaniteEnvironmentResistance999</defName>
+		<label>Heat Null Nanite Environment Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Heat Null Nanite Environment Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<statOffsets>
+			<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</HeatNullNaniteEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>HeatNullNaniteResistance1</defName>
+		<label>Heat Null Nanite Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Heat Null Nanite Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<statOffsets>
+			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>HeatNullNaniteResistance999</defName>
+		<label>Heat Null Nanite Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Heat Null Nanite Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<statOffsets>
+			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">9</HeatNullNaniteResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="oskarpotocki.vanillafactionsexpanded.core" ParentName="CheatsStatOffsets">
+		<defName>VEF_MeleeAttackDamageFactor999</defName>
+		<label>Melee Attack Damage Factor +9 [VEF]</label>
+		<description>Cheat gene. Offsets Melee Attack Damage Factor by +9. Needs the VEF mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<statOffsets>
+			<VEF_MeleeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_MeleeAttackDamageFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="oskarpotocki.vanillafactionsexpanded.core" ParentName="CheatsStatOffsets">
+		<defName>VEF_MeleeAttackSpeedFactor999</defName>
+		<label>Melee Attack Speed Factor +9 [VEF]</label>
+		<description>Cheat gene. Offsets Melee Attack Speed Factor by +9. Needs the VEF mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<statOffsets>
+			<VEF_MeleeAttackSpeedFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_MeleeAttackSpeedFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="vanillaexpanded.vpsycastse" ParentName="CheatsStatOffsets">
+		<defName>VPE_PsychicEntropyMinimum-1</defName>
+		<label>Psychic Entropy Minimum -1 [VPE]</label>
+		<description>Cheat gene. Offsets Psychic Entropy Minimum by -1. Needs the VPE mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<statOffsets>
+			<VPE_PsychicEntropyMinimum MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsychicEntropyMinimum>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="vanillaexpanded.vpsycastse" ParentName="CheatsStatOffsets">
+		<defName>VPE_PsyfocusCostFactor-1</defName>
+		<label>Psyfocus Cost Factor -1 [VPE]</label>
+		<description>Cheat gene. Offsets Psyfocus Cost Factor by -1. Needs the VPE mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<statOffsets>
+			<VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsyfocusCostFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RadiationEnvironmentResistance1</defName>
+		<label>Radiation Environment Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Radiation Environment Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<statOffsets>
+			<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RadiationEnvironmentResistance999</defName>
+		<label>Radiation Environment Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Radiation Environment Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<statOffsets>
+			<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</RadiationEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RadiationResistance1</defName>
+		<label>Radiation Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Radiation Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>22</displayOrderInCategory>
+		<statOffsets>
+			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RadiationResistance999</defName>
+		<label>Radiation Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Radiation Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>23</displayOrderInCategory>
+		<statOffsets>
+			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">9</RadiationResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RageVirusEnvironmentResistance1</defName>
+		<label>Rage Virus Environment Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Rage Virus Environment Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>24</displayOrderInCategory>
+		<statOffsets>
+			<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RageVirusEnvironmentResistance999</defName>
+		<label>Rage Virus Environment Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Rage Virus Environment Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		<statOffsets>
+			<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</RageVirusEnvironmentResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RageVirusResistance1</defName>
+		<label>Rage Virus Resistance +1 [Kraltech]</label>
+		<description>Cheat gene. Offsets Rage Virus Resistance by +1. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>26</displayOrderInCategory>
+		<statOffsets>
+			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="blackmarket420.kraltechindustries" ParentName="CheatsStatOffsets">
+		<defName>RageVirusResistance999</defName>
+		<label>Rage Virus Resistance +9 [Kraltech]</label>
+		<description>Cheat gene. Offsets Rage Virus Resistance by +9. Needs the Kraltech mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>27</displayOrderInCategory>
+		<statOffsets>
+			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">9</RageVirusResistance>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="oskarpotocki.vanillafactionsexpanded.core" ParentName="CheatsStatOffsets">
+		<defName>VEF_RangeAttackDamageFactor999</defName>
+		<label>Range Attack Damage Factor +9 [VEF]</label>
+		<description>Cheat gene. Offsets Range Attack Damage Factor by +9. Needs the VEF mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>28</displayOrderInCategory>
+		<statOffsets>
+			<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_RangeAttackDamageFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="oskarpotocki.vanillafactionsexpanded.core" ParentName="CheatsStatOffsets">
+		<defName>VEF_RangeAttackSpeedFactor999</defName>
+		<label>Range Attack Speed Factor +9 [VEF]</label>
+		<description>Cheat gene. Offsets Range Attack Speed Factor by +9. Needs the VEF mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>29</displayOrderInCategory>
+		<statOffsets>
+			<VEF_RangeAttackSpeedFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_RangeAttackSpeedFactor>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="neronix17.tweaksgalore" ParentName="CheatsStatOffsets">
+		<defName>TweaksGalore_StonecuttingSpeed999</defName>
+		<label>Stonecutting Speed +9 [Tweaks Galore]</label>
+		<description>Cheat gene. Offsets Stonecutting Speed by +9. Needs the Tweaks Galore mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<statOffsets>
+			<TweaksGalore_StonecuttingSpeed MayRequire="neronix17.tweaksgalore">9</TweaksGalore_StonecuttingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef MayRequire="vanillaexpanded.vbookse" ParentName="CheatsStatOffsets">
+		<defName>VBE_WritingSpeed999</defName>
+		<label>Writing Speed +9 [VBE]</label>
+		<description>Cheat gene. Offsets Writing Speed by +9. Needs the VBE mod.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-ModStats</displayCategory>
+		<displayOrderInCategory>31</displayOrderInCategory>
+		<statOffsets>
+			<VBE_WritingSpeed MayRequire="vanillaexpanded.vbookse">9</VBE_WritingSpeed>
+		</statOffsets>
+	</GeneDef>
+
+</Defs>

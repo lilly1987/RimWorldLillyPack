@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>AlzheimersImmunity</defName>
+		<label>Immune to Alzheimers</label>
+		<description>Cheat gene. This pawn cannot get Alzheimers and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Alzheimers</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Alzheimers</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>AsthmaImmunity</defName>
+		<label>Immune to Asthma</label>
+		<description>Cheat gene. This pawn cannot get Asthma and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>2</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Asthma</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Asthma</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>BadBackImmunity</defName>
+		<label>Immune to Bad Back</label>
+		<description>Cheat gene. This pawn cannot get Bad Back and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>BadBack</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>BadBack</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>BiteImmunity</defName>
+		<label>Immune to Bite</label>
+		<description>Cheat gene. This pawn cannot get Bite and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Bite</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Bite</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>BlindnessImmunity</defName>
+		<label>Immune to Blindness</label>
+		<description>Cheat gene. This pawn cannot get Blindness and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Blindness</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Blindness</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>BloodLossImmunity</defName>
+		<label>Immune to Blood Loss</label>
+		<description>Cheat gene. This pawn cannot get Blood Loss and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>BloodLoss</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>BloodLoss</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>BloodRotImmunity</defName>
+		<label>Immune to Blood Rot</label>
+		<description>Cheat gene. This pawn cannot get Blood Rot and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>BloodRot</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>BloodRot</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>BruiseImmunity</defName>
+		<label>Immune to Bruise</label>
+		<description>Cheat gene. This pawn cannot get Bruise and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Bruise</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Bruise</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>BurnImmunity</defName>
+		<label>Immune to Burn</label>
+		<description>Cheat gene. This pawn cannot get Burn and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>9</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Burn</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Burn</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>CarcinomaImmunity</defName>
+		<label>Immune to Carcinoma</label>
+		<description>Cheat gene. This pawn cannot get Carcinoma and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>10</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Carcinoma</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Carcinoma</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>CataractImmunity</defName>
+		<label>Immune to Cataract</label>
+		<description>Cheat gene. This pawn cannot get Cataract and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>11</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Cataract</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Cataract</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ChemicalBurnImmunity</defName>
+		<label>Immune to Chemical Burn</label>
+		<description>Cheat gene. This pawn cannot get Chemical Burn and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>12</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>ChemicalBurn</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>ChemicalBurn</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ChemicalDamageModerateImmunity</defName>
+		<label>Immune to Chemical Damage Moderate</label>
+		<description>Cheat gene. This pawn cannot get Chemical Damage Moderate and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>13</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>ChemicalDamageModerate</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>ChemicalDamageModerate</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ChemicalDamageSevereImmunity</defName>
+		<label>Immune to Chemical Damage Severe</label>
+		<description>Cheat gene. This pawn cannot get Chemical Damage Severe and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>14</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>ChemicalDamageSevere</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>ChemicalDamageSevere</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>CirrhosisImmunity</defName>
+		<label>Immune to Cirrhosis</label>
+		<description>Cheat gene. This pawn cannot get Cirrhosis and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>15</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Cirrhosis</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Cirrhosis</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>CrackImmunity</defName>
+		<label>Immune to Crack</label>
+		<description>Cheat gene. This pawn cannot get Crack and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>16</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Crack</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Crack</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>CrushImmunity</defName>
+		<label>Immune to Crush</label>
+		<description>Cheat gene. This pawn cannot get Crush and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>17</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Crush</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Crush</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>CutImmunity</defName>
+		<label>Immune to Cut</label>
+		<description>Cheat gene. This pawn cannot get Cut and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>18</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Cut</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Cut</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>DementiaImmunity</defName>
+		<label>Immune to Dementia</label>
+		<description>Cheat gene. This pawn cannot get Dementia and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>19</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Dementia</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Dementia</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>DirtInEyesImmunity</defName>
+		<label>Immune to Dirt In Eyes</label>
+		<description>Cheat gene. This pawn cannot get Dirt In Eyes and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>20</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>DirtInEyes</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>DirtInEyes</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ExecutionCutImmunity</defName>
+		<label>Immune to Execution Cut</label>
+		<description>Cheat gene. This pawn cannot get Execution Cut and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>21</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>ExecutionCut</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>ExecutionCut</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>FibrousMechanitesImmunity</defName>
+		<label>Immune to Fibrous Mechanites</label>
+		<description>Cheat gene. This pawn cannot get Fibrous Mechanites and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>22</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>FibrousMechanites</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>FibrousMechanites</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>FluImmunity</defName>
+		<label>Immune to Flu</label>
+		<description>Cheat gene. This pawn cannot get Flu and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>23</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Flu</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Flu</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>FrailImmunity</defName>
+		<label>Immune to Frail</label>
+		<description>Cheat gene. This pawn cannot get Frail and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>24</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Frail</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Frail</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>FrostbiteImmunity</defName>
+		<label>Immune to Frostbite</label>
+		<description>Cheat gene. This pawn cannot get Frostbite and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>25</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Frostbite</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Frostbite</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>GravelInEyesImmunity</defName>
+		<label>Immune to Gravel In Eyes</label>
+		<description>Cheat gene. This pawn cannot get Gravel In Eyes and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>26</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>GravelInEyes</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>GravelInEyes</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>GunshotImmunity</defName>
+		<label>Immune to Gunshot</label>
+		<description>Cheat gene. This pawn cannot get Gunshot and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>27</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Gunshot</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Gunshot</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>GutWormsImmunity</defName>
+		<label>Immune to Gut Worms</label>
+		<description>Cheat gene. This pawn cannot get Gut Worms and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>28</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>GutWorms</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>GutWorms</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>HearingLossImmunity</defName>
+		<label>Immune to Hearing Loss</label>
+		<description>Cheat gene. This pawn cannot get Hearing Loss and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>29</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>HearingLoss</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>HearingLoss</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>HeartArteryBlockageImmunity</defName>
+		<label>Immune to Heart Artery Blockage</label>
+		<description>Cheat gene. This pawn cannot get Heart Artery Blockage and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>30</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>HeartArteryBlockage</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>HeartArteryBlockage</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>HeartAttackImmunity</defName>
+		<label>Immune to Heart Attack</label>
+		<description>Cheat gene. This pawn cannot get Heart Attack and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>31</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>HeartAttack</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>HeartAttack</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>HypothermiaImmunity</defName>
+		<label>Immune to Hypothermia</label>
+		<description>Cheat gene. This pawn cannot get Hypothermia and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>32</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Hypothermia</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Hypothermia</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>InfantIllnessImmunity</defName>
+		<label>Immune to Infant Illness</label>
+		<description>Cheat gene. This pawn cannot get Infant Illness and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>33</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>InfantIllness</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>InfantIllness</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>LungRotImmunity</defName>
+		<label>Immune to Lung Rot</label>
+		<description>Cheat gene. This pawn cannot get Lung Rot and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>34</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>LungRot</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>LungRot</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>MalariaImmunity</defName>
+		<label>Immune to Malaria</label>
+		<description>Cheat gene. This pawn cannot get Malaria and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>35</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Malaria</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Malaria</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>MiscImmunity</defName>
+		<label>Immune to Misc Injuries</label>
+		<description>Cheat gene. This pawn cannot get Misc Injuries and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>36</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Misc</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Misc</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>MissingBodyPartImmunity</defName>
+		<label>Immune to Missing Body Part</label>
+		<description>Cheat gene. This pawn cannot get Missing Body Part and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>37</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>MissingBodyPart</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>MissingBodyPart</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>MudInEyesImmunity</defName>
+		<label>Immune to Mud In Eyes</label>
+		<description>Cheat gene. This pawn cannot get Mud In Eyes and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>38</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>MudInEyes</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>MudInEyes</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>MuscleParasitesImmunity</defName>
+		<label>Immune to Muscle Parasites</label>
+		<description>Cheat gene. This pawn cannot get Muscle Parasites and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>39</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>MuscleParasites</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>MuscleParasites</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>PlagueImmunity</defName>
+		<label>Immune to Plague</label>
+		<description>Cheat gene. This pawn cannot get Plague and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>40</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Plague</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Plague</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ResurrectionPsychosisImmunity</defName>
+		<label>Immune to Resurrection Psychosis</label>
+		<description>Cheat gene. This pawn cannot get Resurrection Psychosis and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>41</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>ResurrectionPsychosis</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>ResurrectionPsychosis</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>SandInEyesImmunity</defName>
+		<label>Immune to Sand In Eyes</label>
+		<description>Cheat gene. This pawn cannot get Sand In Eyes and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>42</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>SandInEyes</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>SandInEyes</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ScariaImmunity</defName>
+		<label>Immune to Scaria</label>
+		<description>Cheat gene. This pawn cannot get Scaria and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>43</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Scaria</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Scaria</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ScratchImmunity</defName>
+		<label>Immune to Scratch</label>
+		<description>Cheat gene. This pawn cannot get Scratch and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>44</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Scratch</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Scratch</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>SensoryMechanitesImmunity</defName>
+		<label>Immune to Sensory Mechanites</label>
+		<description>Cheat gene. This pawn cannot get Sensory Mechanites and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>45</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>SensoryMechanites</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>SensoryMechanites</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>ShreddedImmunity</defName>
+		<label>Immune to Shredded</label>
+		<description>Cheat gene. This pawn cannot get Shredded and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>46</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Shredded</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Shredded</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>SleepingSicknessImmunity</defName>
+		<label>Immune to Sleeping Sickness</label>
+		<description>Cheat gene. This pawn cannot get Sleeping Sickness and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>47</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>SleepingSickness</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>SleepingSickness</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>StabImmunity</defName>
+		<label>Immune to Stab</label>
+		<description>Cheat gene. This pawn cannot get Stab and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>48</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Stab</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Stab</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>SterilizedImmunity</defName>
+		<label>Immune to Sterilized</label>
+		<description>Cheat gene. This pawn cannot get Sterilized and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>49</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>Sterilized</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Sterilized</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>SurgicalCutImmunity</defName>
+		<label>Immune to Surgical Cut</label>
+		<description>Cheat gene. This pawn cannot get Surgical Cut and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>50</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>SurgicalCut</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>SurgicalCut</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>TraumaSavantImmunity</defName>
+		<label>Immune to Trauma Savant</label>
+		<description>Cheat gene. This pawn cannot get Trauma Savant and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>51</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>TraumaSavant</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>TraumaSavant</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>WaterInEyesImmunity</defName>
+		<label>Immune to Water In Eyes</label>
+		<description>Cheat gene. This pawn cannot get Water In Eyes and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>52</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>WaterInEyes</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>WaterInEyes</li>
+		</makeImmuneTo>
+	</GeneDef>
+	
+	<GeneDef ParentName="CheatsHediffGiversCannotGive">
+		<defName>WoundInfectionImmunity</defName>
+		<label>Immune to Wound Infection</label>
+		<description>Cheat gene. This pawn cannot get Wound Infection and is immune to it.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>53</displayOrderInCategory>
+		<hediffGiversCannotGive>
+			<li>WoundInfection</li>
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>WoundInfection</li>
+		</makeImmuneTo>
+	</GeneDef>
+</Defs>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Presets</defName>
+		<label>Cheat: Presets</label>
+		<displayPriorityInXenotype>636</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Misc</defName>
+		<label>Cheat: Gene Points</label>
+		<displayPriorityInXenotype>637</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Yields</defName>
+		<label>Cheat: Yields &amp; Harvest</label>
+		<displayPriorityInXenotype>638</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Work</defName>
+		<label>Cheat: Work Speed</label>
+		<displayPriorityInXenotype>639</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Movement</defName>
+		<label>Cheat: Movement &amp; Carrying</label>
+		<displayPriorityInXenotype>640</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Combat</defName>
+		<label>Cheat: Combat</label>
+		<displayPriorityInXenotype>641</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Health</defName>
+		<label>Cheat: Health &amp; Survival</label>
+		<displayPriorityInXenotype>642</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Mind</defName>
+		<label>Cheat: Mind &amp; Social</label>
+		<displayPriorityInXenotype>643</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Animals</defName>
+		<label>Cheat: Animals &amp; Hunting</label>
+		<displayPriorityInXenotype>644</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-Psychic</defName>
+		<label>Cheat: Psychic, Mech &amp; Anomaly</label>
+		<displayPriorityInXenotype>645</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-ModStats</defName>
+		<label>Cheat: Modded Stats</label>
+		<displayPriorityInXenotype>646</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-OtherStats</defName>
+		<label>Cheat: Other Stats</label>
+		<displayPriorityInXenotype>647</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-disablesNeeds</defName>
+		<label>Cheat: Disable Needs</label>
+		<displayPriorityInXenotype>648</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+	<GeneCategoryDef>
+		<defName>Cheats-hediffGiversCannotGive</defName>
+		<label>Cheat: Immunities (Diseases &amp; Injuries)</label>
+		<displayPriorityInXenotype>649</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+</Defs>
