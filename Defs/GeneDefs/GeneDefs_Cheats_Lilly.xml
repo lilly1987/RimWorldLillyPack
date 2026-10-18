@@ -7,6 +7,9 @@
 		<description>Everything. No attack damage.</description>
 		<iconPath>Genes/Icons/cheat</iconPath>
 		<displayOrderInCategory>1</displayOrderInCategory>
+		<biostatCpx>-999</biostatCpx>
+		<biostatMet>999</biostatMet>
+		<biostatArc>-999</biostatArc>
 		<statOffsets>
 			<MoveSpeed>15</MoveSpeed>
 			<WorkSpeedGlobal>9</WorkSpeedGlobal>
@@ -89,10 +92,50 @@
 			</li>
 			<li>
 				<capacity>Moving</capacity>
-				<offset>1</offset>
+				<offset>10</offset>
 			</li>
 			<li>
 				<capacity>Consciousness</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<offset>2</offset>
+			</li> 
+			<li>
+				<capacity>Talking</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>Eating</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>Sight</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>Hearing</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>Breathing</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>BloodFiltration</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>BloodPumping</capacity>
+				<offset>2</offset>
+			</li>
+			<li>
+				<capacity>Metabolism</capacity>
 				<offset>2</offset>
 			</li>
 		</capMods>
@@ -153,6 +196,9 @@
 			<li>InfantIllness</li>
 		</makeImmuneTo>
 	</GeneDef>
+
+
+
 
 
 </Defs>
