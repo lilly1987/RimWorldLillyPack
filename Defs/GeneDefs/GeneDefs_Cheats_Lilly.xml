@@ -1,329 +1,371 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<GeneDef ParentName="CheatsPresets">
-		<defName>God2</defName>
-		<label>God 2</label>
-		<description>Everything. No attack damage.</description>
-		<iconPath>Genes/Icons/cheat</iconPath>
-		<displayOrderInCategory>1</displayOrderInCategory>
-		<biostatCpx>-999</biostatCpx>
-		<biostatMet>999</biostatMet>
-		<biostatArc>-999</biostatArc>
-		<statOffsets>
-			<MoveSpeed>15</MoveSpeed>
-			<WorkSpeedGlobal>9</WorkSpeedGlobal>
-			<GeneralLaborSpeed>9</GeneralLaborSpeed>
-			<ResearchSpeed>9</ResearchSpeed>
-			<DoorOpenSpeed>9</DoorOpenSpeed>
-			<BiosculpterOccupantSpeed>9</BiosculpterOccupantSpeed>
-			<MeleeDodgeChance>1</MeleeDodgeChance>
-			<MeleeCooldownFactor>-0.5</MeleeCooldownFactor>
-			<AimingDelayFactor>-1</AimingDelayFactor>
-			<TrapSpringChance>-1</TrapSpringChance>
-			<FishingSpeed MayRequire="Ludeon.RimWorld.Odyssey">9</FishingSpeed>
-			<PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">9</PilotingAbility>
-
-			<Ancot_ExtraCaravanCarryCapacity>9999</Ancot_ExtraCaravanCarryCapacity>
-			<CarryingCapacity>9999</CarryingCapacity>
-			<!-- <MeleeDamageFactor>9</MeleeDamageFactor> -->
-			<MeleeArmorPenetration>9</MeleeArmorPenetration>
-			<MeleeHitChance>1</MeleeHitChance>
-			<MiningSpeed>9</MiningSpeed>
-			<ConstructionSpeed>9</ConstructionSpeed>
-			<StaggerDurationFactor>-1</StaggerDurationFactor>
-
-			<IncomingDamageFactor>-1</IncomingDamageFactor>
-			<InjuryHealingFactor>9</InjuryHealingFactor>
-			<ImmunityGainSpeed>9</ImmunityGainSpeed>
-			<PainShockThreshold>1</PainShockThreshold>
-			<LifespanFactor>9</LifespanFactor>
-			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<Flammability>-1</Flammability>
-			<FoodPoisonChance>-1</FoodPoisonChance>
-			<ComfyTemperatureMin>-99</ComfyTemperatureMin>
-			<ComfyTemperatureMax>99</ComfyTemperatureMax>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
-			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteResistance>
-			<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteEnvironmentResistance>
-			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteResistance>
-			<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteEnvironmentResistance>
-			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationResistance>
-			<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationEnvironmentResistance>
-			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinResistance>
-			<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinEnvironmentResistance>
-			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusResistance>
-			<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusEnvironmentResistance>
-			
-			<PsychicSensitivity>9</PsychicSensitivity>
-			<MeditationFocusGain>9</MeditationFocusGain>
-			<PsychicEntropyRecoveryRate>9</PsychicEntropyRecoveryRate>
-			<PsychicEntropyGain>-1</PsychicEntropyGain>
-			<MentalBreakThreshold>-1</MentalBreakThreshold>
-			<PsychicRitualQualityOffset MayRequire="Ludeon.RimWorld.Anomaly">1</PsychicRitualQualityOffset>
-			<VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsyfocusCostFactor>
-			<VPE_PsychicEntropyMinimum MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsychicEntropyMinimum>
-			
-			<SubcoreEncodingSpeed>9</SubcoreEncodingSpeed>
-			<MechBandwidth>50</MechBandwidth>
-			<MechControlGroups>5</MechControlGroups>
-			<WorkSpeedGlobalOffsetMech>9</WorkSpeedGlobalOffsetMech>
-			<MechRemoteRepairDistance>9</MechRemoteRepairDistance>
-			<MechFormingSpeed>9</MechFormingSpeed>
-			<MechRemoteShieldDistance>9</MechRemoteShieldDistance>
-			<MechRemoteShieldEnergy>9</MechRemoteShieldEnergy>
-			<MechRepairSpeed>9</MechRepairSpeed>
-			
-			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteResistance>
-			<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteEnvironmentResistance>
-			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteResistance>
-			<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteEnvironmentResistance>
-			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationResistance>
-			<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationEnvironmentResistance>
-			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinResistance>
-			<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinEnvironmentResistance>
-			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusResistance>
-			<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusEnvironmentResistance>
-		</statOffsets>
-		<capMods>
-			<li>
-				<capacity>Manipulation</capacity>
-				<offset>1</offset>
-			</li>
-			<li>
-				<capacity>Moving</capacity>
-				<offset>10</offset>
-			</li>
-			<li>
-				<capacity>Consciousness</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>Consciousness</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>Moving</capacity>
-				<offset>2</offset>
-			</li> 
-			<li>
-				<capacity>Talking</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>Eating</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>Sight</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>Hearing</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>Breathing</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>BloodFiltration</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>BloodPumping</capacity>
-				<offset>2</offset>
-			</li>
-			<li>
-				<capacity>Metabolism</capacity>
-				<offset>2</offset>
-			</li>
-		</capMods>
-		<hediffGiversCannotGive>
-			<li>Carcinoma</li>
-			<li>HeartAttack</li>
-			<li>BadBack</li>
-			<li>Frail</li>
-			<li>Cataract</li>
-			<li>Dementia</li>
-			<li>Alzheimers</li>
-			<li>Asthma</li>
-			<li>HeartArteryBlockage</li>
-			<li>SensoryMechanites</li>
-			<li>WoundInfection</li>
-			<li>MissingBodyPart</li>
-			<li>Misc</li>
-			<li>Burn</li>
-			<li>ChemicalBurn</li>
-			<li>Crush</li>
-			<li>Crack</li>
-			<li>Cut</li>
-			<li>SurgicalCut</li>
-			<li>ExecutionCut</li>
-			<li>Scratch</li>
-			<li>Bite</li>
-			<li>Stab</li>
-			<li>Gunshot</li>
-			<li>Shredded</li>
-			<li>Bruise</li>
-			<li>Frostbite</li>
-			<li>Blindness</li>
-			<li>HearingLoss</li>
-			<li>TraumaSavant</li>
-			<li>ChemicalDamageModerate</li>
-			<li>ChemicalDamageSevere</li>
-			<li>Cirrhosis</li>
-			<li>ResurrectionPsychosis</li>
-			<li>Scaria</li>
-			<li>Sterilized</li>
-			<li>BloodLoss</li>
-			<!-- Can't seem to block these, might need more definitions that they are 
-				<li>ParalyticAbasia</li>
-				<li>Bleeding</li>
-			-->
-		</hediffGiversCannotGive>
-		<makeImmuneTo>
-			<li>Flu</li>
-			<li>Malaria</li>
-			<li>SleepingSickness</li>
-			<li>Plague</li>
-			<li>WoundInfection</li>
-			<li>LungRot</li>
-			<li>GutWorms</li>
-			<li>MuscleParasites</li>
-			<li>FibrousMechanites</li>
-			<li>BloodRot</li>
-			<li>InfantIllness</li>
-		</makeImmuneTo>
-	</GeneDef>
-
-
-
-
-
-	<GeneDef ParentName="CheatsPresets">
-		<defName>God3</defName>
-		<label>God 3</label>
-		<description>Combines this mod's cheat effects. Offensive combat bonuses are listed in comments and disabled.</description>
-		<iconPath>Genes/Icons/cheat</iconPath>
-		<displayOrderInCategory>2</displayOrderInCategory>
-		<biostatCpx>-999</biostatCpx>
-		<biostatMet>999</biostatMet>
-		<biostatArc>-999</biostatArc>
-		<!-- God preset traits: pain, addiction, poisoning, social fights and permanent wounds. -->
-		<painFactor>0</painFactor>
-		<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
-		<addictionChanceFactor>0</addictionChanceFactor>
-		<overdoseChanceFactor>0</overdoseChanceFactor>
-		<toleranceBuildupFactor>0</toleranceBuildupFactor>
-		<socialFightChanceFactor>0</socialFightChanceFactor>
-		<aggroMentalBreakSelectionChanceFactor>0</aggroMentalBreakSelectionChanceFactor>
-		<ignoreDarkness>True</ignoreDarkness>
-		<preventPermanentWounds>True</preventPermanentWounds>
-		<!-- All needs targeted by the standalone need-immunity genes. -->
-		<disablesNeeds>
-			<li>Beauty</li><li>Comfort</li><li>Deathrest</li><li>DrugDesire</li><li>Food</li><li>Indoors</li><li>Joy</li>
-			<li>KillThirst</li><li>Learning</li><li>Outdoors</li><li>Play</li><li>Rest</li><li>RoomSize</li><li>Suppression</li>
-		</disablesNeeds>
-		<statOffsets>
-			<!-- Movement, carrying, travel and trapping. -->
-			<MoveSpeed>15</MoveSpeed><CrawlSpeed>9</CrawlSpeed><CarryingCapacity>9999</CarryingCapacity><Ancot_ExtraCaravanCarryCapacity>9999</Ancot_ExtraCaravanCarryCapacity>
-			<CaravanBonusSpeedFactor>9</CaravanBonusSpeedFactor><CaravanRidingSpeedFactor>9</CaravanRidingSpeedFactor><FlightCooldown>-99</FlightCooldown><MaxFlightTime>99</MaxFlightTime>
-			<JumpRange MayRequire="Ludeon.RimWorld.Royalty">99</JumpRange><PawnTrapSpringChance>-1</PawnTrapSpringChance><TrapSpringChance>-1</TrapSpringChance>
-			<!-- Work, study and mechanitor bonuses. -->
-			<WorkSpeedGlobal>9</WorkSpeedGlobal><GeneralLaborSpeed>9</GeneralLaborSpeed><ResearchSpeed>9</ResearchSpeed><DoorOpenSpeed>9</DoorOpenSpeed>
-			<BiosculpterOccupantSpeed>9</BiosculpterOccupantSpeed><GrowthVatOccupantSpeed>9</GrowthVatOccupantSpeed><AnimalGatherSpeed>9</AnimalGatherSpeed>
-			<FishingSpeed MayRequire="Ludeon.RimWorld.Odyssey">9</FishingSpeed>
-			<ButcheryFleshSpeed>9</ButcheryFleshSpeed><ButcheryMechanoidSpeed>9</ButcheryMechanoidSpeed><CleaningSpeed>9</CleaningSpeed>
-			<ConstructSuccessChance>9</ConstructSuccessChance><ConstructionSpeed>9</ConstructionSpeed><CookSpeed>9</CookSpeed><DeepDrillingSpeed>9</DeepDrillingSpeed>
-			<DrugCookingSpeed>9</DrugCookingSpeed><DrugSynthesisSpeed>9</DrugSynthesisSpeed><FixBrokenDownBuildingSuccessChance>9</FixBrokenDownBuildingSuccessChance>
-			<HackingSpeed>9</HackingSpeed><HackingStealth>9</HackingStealth><MiningSpeed>9</MiningSpeed><PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">9</PilotingAbility>
-			<PlantWorkSpeed>9</PlantWorkSpeed><PruningSpeed>0.25</PruningSpeed><ReadingSpeed>9</ReadingSpeed><SmeltingSpeed>9</SmeltingSpeed><SmoothingSpeed>9</SmoothingSpeed>
-			<MedicalOperationSpeed>9</MedicalOperationSpeed><MedicalSurgerySuccessChance>9</MedicalSurgerySuccessChance><MedicalTendQuality>9</MedicalTendQuality><MedicalTendSpeed>9</MedicalTendSpeed>
-			<SubcoreEncodingSpeed>9</SubcoreEncodingSpeed><WorkSpeedGlobalOffsetMech>9</WorkSpeedGlobalOffsetMech><MechBandwidth>50</MechBandwidth><MechControlGroups>5</MechControlGroups>
-			<MechRemoteRepairDistance>9</MechRemoteRepairDistance><MechFormingSpeed>9</MechFormingSpeed><MechRemoteShieldDistance>9</MechRemoteShieldDistance>
-			<MechRemoteShieldEnergy>9</MechRemoteShieldEnergy><MechRepairSpeed>9</MechRepairSpeed>
-			<TweaksGalore_StonecuttingSpeed MayRequire="neronix17.tweaksgalore">9</TweaksGalore_StonecuttingSpeed><VBE_WritingSpeed MayRequire="vanillaexpanded.vbookse">9</VBE_WritingSpeed>
-			<!-- Resource yields, animal handling and trade. -->
-			<AnimalGatherYield>9</AnimalGatherYield><AnimalProductsSellImprovement>9</AnimalProductsSellImprovement><ButcheryFleshEfficiency>9</ButcheryFleshEfficiency>
-			<ButcheryMechanoidEfficiency>9</ButcheryMechanoidEfficiency><DrugHarvestYield>9</DrugHarvestYield><DrugSellPriceImprovement>9</DrugSellPriceImprovement>
-			<FishingYield MayRequire="Ludeon.RimWorld.Odyssey">9</FishingYield><ForagedNutritionPerDay>99</ForagedNutritionPerDay><LeatherAmount>9</LeatherAmount><MeatAmount>9</MeatAmount>
-			<MiningYield>9</MiningYield><PlantHarvestYield>9</PlantHarvestYield><NegotiationAbility>9</NegotiationAbility><TameAnimalChance>9</TameAnimalChance>
-			<TrainAnimalChance>9</TrainAnimalChance><TradePriceImprovement>9</TradePriceImprovement>
-			<!-- Learning, social and environment effects. -->
-			<AnimalsLearningFactor>9</AnimalsLearningFactor><GlobalLearningFactor>9</GlobalLearningFactor><LearningRateFactor>9</LearningRateFactor>
-			<SocialIdeoSpreadFrequencyFactor>9</SocialIdeoSpreadFrequencyFactor><SocialImpact>9</SocialImpact><PawnBeauty>99</PawnBeauty><Wildness>-1</Wildness><FilthRate>-1</FilthRate>
-			<ArrestSuccessChance>9</ArrestSuccessChance><BondAnimalChanceFactor>9</BondAnimalChanceFactor><SlaveSuppressionFallRate>-1</SlaveSuppressionFallRate><SuppressionPower>9</SuppressionPower>
-			<HuntingStealth>9</HuntingStealth><JoyFallRateFactor>-1</JoyFallRateFactor>
-			<ActivitySuppressionRate MayRequire="Ludeon.RimWorld.Anomaly">9</ActivitySuppressionRate><MinimumContainmentStrength>99</MinimumContainmentStrength>
-			<!-- Defense, health, metabolism and temperature. -->
-			<IncomingDamageFactor>-1</IncomingDamageFactor><InjuryHealingFactor>9</InjuryHealingFactor><ImmunityGainSpeed>9</ImmunityGainSpeed>
-			<PainShockThreshold>9</PainShockThreshold><LifespanFactor>9</LifespanFactor><ToxicEnvironmentResistance>1</ToxicEnvironmentResistance><Flammability>-1</Flammability>
-			<FoodPoisonChance>-1</FoodPoisonChance><ComfyTemperatureMin>-99</ComfyTemperatureMin><ComfyTemperatureMax>99</ComfyTemperatureMax>
-			<ArmorRating_Blunt>9</ArmorRating_Blunt><ArmorRating_Heat>9</ArmorRating_Heat><ArmorRating_Sharp>9</ArmorRating_Sharp><EMPResistance>9</EMPResistance>
-			<Fertility MayRequire="Ludeon.RimWorld.Biotech">9</Fertility><EatingSpeed>9</EatingSpeed><RawNutritionFactor MayRequire="Ludeon.RimWorld.Biotech">9</RawNutritionFactor>
-			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">9</VacuumResistance>
-			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">9</HeatNullNaniteResistance><HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</HeatNullNaniteEnvironmentResistance>
-			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">9</ColdNullNaniteResistance><ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</ColdNullNaniteEnvironmentResistance>
-			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">9</RadiationResistance><RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</RadiationEnvironmentResistance>
-			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">9</AntiOrgToxinResistance><AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</AntiOrgToxinEnvironmentResistance>
-			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">9</RageVirusResistance><RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</RageVirusEnvironmentResistance>
-			<!-- Psychic, hemogen and ideology effects. -->
-			<PsychicSensitivity>9</PsychicSensitivity><MeditationFocusGain>9</MeditationFocusGain><MeditationPlantGrowthOffset>9</MeditationPlantGrowthOffset>
-			<PsychicEntropyRecoveryRate>9</PsychicEntropyRecoveryRate><PsychicEntropyGain>-1</PsychicEntropyGain><PsychicEntropyMax>99</PsychicEntropyMax><MentalBreakThreshold>-1</MentalBreakThreshold>
-			<PsychicRitualQualityOffset MayRequire="Ludeon.RimWorld.Anomaly">9</PsychicRitualQualityOffset>
-			<VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsyfocusCostFactor><VPE_PsychicEntropyMinimum MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsychicEntropyMinimum>
-			<RestFallRateFactor>-1</RestFallRateFactor><RestRateMultiplier>9</RestRateMultiplier><HemogenGainFactor>9</HemogenGainFactor>
-			<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">9</EntityStudyRate><StudyEfficiency MayRequire="Ludeon.RimWorld.Anomaly">9</StudyEfficiency>
-			<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-1</CertaintyLossFactor>
-			<!-- Optional Vanilla Expanded food and fishing effects. -->
-			<VCE_FoodImprovementChance MayRequire="vanillaexpanded.vcooke">9</VCE_FoodImprovementChance><VCEF_FishingLuckOffset MayRequire="vanillaexpanded.vcef">9</VCEF_FishingLuckOffset>
-			<VCEF_FoodCondimentChance MayRequire="vanillaexpanded.vcooke">9</VCEF_FoodCondimentChance>
-			<!-- Offensive attack stats are included for reference but disabled; uncomment to enable. -->
-			<!--
-			<MeleeDamageFactor>9</MeleeDamageFactor><MeleeArmorPenetration>9</MeleeArmorPenetration><MeleeHitChance>9</MeleeHitChance>
-			<MeleeHitChanceIndoorsLitOffset>9</MeleeHitChanceIndoorsLitOffset><MeleeHitChanceOutdoorsDarkOffset>9</MeleeHitChanceOutdoorsDarkOffset>
-			<MeleeCooldownFactor>-0.75</MeleeCooldownFactor><AimingDelayFactor>-1</AimingDelayFactor>
-			<ShootingAccuracyFactor_Long>9</ShootingAccuracyFactor_Long><ShootingAccuracyFactor_Medium>9</ShootingAccuracyFactor_Medium>
-			<ShootingAccuracyFactor_Short>9</ShootingAccuracyFactor_Short><ShootingAccuracyFactor_Touch>9</ShootingAccuracyFactor_Touch>
-			<ShootingAccuracyIndoorsDarkOffset>9</ShootingAccuracyIndoorsDarkOffset><ShootingAccuracyIndoorsLitOffset>9</ShootingAccuracyIndoorsLitOffset>
-			<ShootingAccuracyOutdoorsDarkOffset>9</ShootingAccuracyOutdoorsDarkOffset><ShootingAccuracyOutdoorsLitOffset>9</ShootingAccuracyOutdoorsLitOffset><ShootingAccuracyPawn>8</ShootingAccuracyPawn>
-			<MortarMissRadiusFactor>-1</MortarMissRadiusFactor>
-			<VEF_MeleeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_MeleeAttackDamageFactor>
-			<VEF_MeleeAttackSpeedFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_MeleeAttackSpeedFactor>
-			<VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_RangeAttackDamageFactor>
-			<VEF_RangeAttackSpeedFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_RangeAttackSpeedFactor>
-			-->
-			<!-- Defensive combat stats remain active. -->
-			<MeleeDodgeChance>9</MeleeDodgeChance><MeleeDodgeChanceIndoorsDarkOffset>9</MeleeDodgeChanceIndoorsDarkOffset>
-			<MeleeDodgeChanceIndoorsLitOffset>9</MeleeDodgeChanceIndoorsLitOffset><MeleeDodgeChanceOutdoorsDarkOffset>9</MeleeDodgeChanceOutdoorsDarkOffset>
-			<MeleeDodgeChanceOutdoorsLitOffset>9</MeleeDodgeChanceOutdoorsLitOffset><StaggerDurationFactor>-1</StaggerDurationFactor>
-		</statOffsets>
-		<!-- Consolidates all capacity boosts; Moving retains God2's larger offset. -->
-		<capMods>
-			<li><capacity>Consciousness</capacity><offset>2</offset></li><li><capacity>Moving</capacity><offset>10</offset></li>
-			<li><capacity>Manipulation</capacity><offset>2</offset></li><li><capacity>Talking</capacity><offset>2</offset></li><li><capacity>Eating</capacity><offset>2</offset></li>
-			<li><capacity>Sight</capacity><offset>2</offset></li><li><capacity>Hearing</capacity><offset>2</offset></li><li><capacity>Breathing</capacity><offset>2</offset></li>
-			<li><capacity>BloodFiltration</capacity><offset>2</offset></li><li><capacity>BloodPumping</capacity><offset>2</offset></li><li><capacity>Metabolism</capacity><offset>2</offset></li>
-		</capMods>
-		<!-- Blocks every condition covered by the individual hediff immunity genes. -->
-		<hediffGiversCannotGive>
-			<li>Alzheimers</li><li>Asthma</li><li>BadBack</li><li>Bite</li><li>Blindness</li><li>BloodLoss</li><li>BloodRot</li><li>Bruise</li><li>Burn</li>
-			<li>Carcinoma</li><li>Cataract</li><li>ChemicalBurn</li><li>ChemicalDamageModerate</li><li>ChemicalDamageSevere</li><li>Cirrhosis</li><li>Crack</li><li>Crush</li><li>Cut</li>
-			<li>Dementia</li><li>DirtInEyes</li><li>ExecutionCut</li><li>FibrousMechanites</li><li>Flu</li><li>Frail</li><li>Frostbite</li><li>GravelInEyes</li><li>Gunshot</li><li>GutWorms</li>
-			<li>HearingLoss</li><li>HeartArteryBlockage</li><li>HeartAttack</li><li>Hypothermia</li><li>InfantIllness</li><li>LungRot</li><li>Malaria</li><li>Misc</li><li>MissingBodyPart</li>
-			<li>MudInEyes</li><li>MuscleParasites</li><li>Plague</li><li>ResurrectionPsychosis</li><li>SandInEyes</li><li>Scaria</li><li>Scratch</li><li>SensoryMechanites</li><li>Shredded</li>
-			<li>SleepingSickness</li><li>Stab</li><li>Sterilized</li><li>SurgicalCut</li><li>TraumaSavant</li><li>WaterInEyes</li><li>WoundInfection</li>
-			<!-- The base God preset notes these cannot currently be blocked reliably. -->
-			<!-- <li>ParalyticAbasia</li><li>Bleeding</li> -->
-		</hediffGiversCannotGive>
-		<makeImmuneTo>
-			<li>Alzheimers</li><li>Asthma</li><li>BadBack</li><li>Bite</li><li>Blindness</li><li>BloodLoss</li><li>BloodRot</li><li>Bruise</li><li>Burn</li>
-			<li>Carcinoma</li><li>Cataract</li><li>ChemicalBurn</li><li>ChemicalDamageModerate</li><li>ChemicalDamageSevere</li><li>Cirrhosis</li><li>Crack</li><li>Crush</li><li>Cut</li>
-			<li>Dementia</li><li>DirtInEyes</li><li>ExecutionCut</li><li>FibrousMechanites</li><li>Flu</li><li>Frail</li><li>Frostbite</li><li>GravelInEyes</li><li>Gunshot</li><li>GutWorms</li>
-			<li>HearingLoss</li><li>HeartArteryBlockage</li><li>HeartAttack</li><li>Hypothermia</li><li>InfantIllness</li><li>LungRot</li><li>Malaria</li><li>Misc</li><li>MissingBodyPart</li>
-			<li>MudInEyes</li><li>MuscleParasites</li><li>Plague</li><li>ResurrectionPsychosis</li><li>SandInEyes</li><li>Scaria</li><li>Scratch</li><li>SensoryMechanites</li><li>Shredded</li>
-			<li>SleepingSickness</li><li>Stab</li><li>Sterilized</li><li>SurgicalCut</li><li>TraumaSavant</li><li>WaterInEyes</li><li>WoundInfection</li>
-		</makeImmuneTo>
-	</GeneDef>
+<GeneDef ParentName="CheatsPresets">
+<defName>God2</defName><!-- 유전자 고유 식별자 -->
+<label>God 2</label><!-- 게임 내 표시 이름 -->
+<description>Combines this mod's cheat effects. Offensive combat bonuses are listed in comments and disabled.</description><!-- 효과 요약 -->
+<iconPath>Genes/Icons/cheat</iconPath><!-- 유전자 아이콘 경로 -->
+<displayOrderInCategory>0</displayOrderInCategory><!-- 카테고리 표시 순서 -->
+<biostatCpx>-999</biostatCpx><!-- 복잡도 999 감소 -->
+<biostatMet>999</biostatMet><!-- 대사 효율 999 증가 -->
+<biostatArc>-999</biostatArc><!-- 아키테 캡슐 비용 999 감소 -->
+<!-- 통증, 중독, 중독성 물질 부작용, 사교 싸움 및 영구 부상 관련 효과 -->
+<painFactor>0</painFactor><!-- 통증 제거 -->
+<foodPoisoningChanceFactor>0</foodPoisoningChanceFactor><!-- 식중독 발생 확률 제거 -->
+<addictionChanceFactor>0</addictionChanceFactor><!-- 중독 확률 제거 -->
+<overdoseChanceFactor>0</overdoseChanceFactor><!-- 과다복용 확률 제거 -->
+<toleranceBuildupFactor>0</toleranceBuildupFactor><!-- 약물 내성 축적 제거 -->
+<socialFightChanceFactor>0</socialFightChanceFactor><!-- 사교 싸움 확률 제거 -->
+<aggroMentalBreakSelectionChanceFactor>0</aggroMentalBreakSelectionChanceFactor><!-- 공격적 정신붕괴 선택 확률 제거 -->
+<ignoreDarkness>True</ignoreDarkness><!-- 어둠 영향 무시 -->
+<preventPermanentWounds>True</preventPermanentWounds><!-- 영구 부상 방지 -->
+<!-- 개별 욕구 면역 유전자가 비활성화하는 모든 욕구 -->
+<disablesNeeds>
+<li>Beauty</li><!-- 아름다움 욕구 비활성화 -->
+<li>Comfort</li><!-- 편안함 욕구 비활성화 -->
+<li>Deathrest</li><!-- 죽음휴식 욕구 비활성화 -->
+<li>DrugDesire</li><!-- 약물 욕구 비활성화 -->
+<li>Food</li><!-- 음식 욕구 비활성화 -->
+<li>Indoors</li><!-- 실내 욕구 비활성화 -->
+<li>Joy</li><!-- 오락 욕구 비활성화 -->
+<li>KillThirst</li><!-- 살해 갈증 욕구 비활성화 -->
+<li>Learning</li><!-- 학습 욕구 비활성화 -->
+<li>Outdoors</li><!-- 야외 욕구 비활성화 -->
+<li>Play</li><!-- 놀이 욕구 비활성화 -->
+<li>Rest</li><!-- 휴식 욕구 비활성화 -->
+<li>RoomSize</li><!-- 방 크기 욕구 비활성화 -->
+<li>Suppression</li><!-- 억압 욕구 비활성화 -->
+</disablesNeeds>
+<statOffsets>
+<!-- 이동, 운반, 여행 및 함정 관련 능력치 -->
+<MoveSpeed>99</MoveSpeed><!-- 이동 속도 대폭 증가 -->
+<CrawlSpeed>99</CrawlSpeed><!-- 기어 이동 속도 증가 -->
+<CarryingCapacity>9999</CarryingCapacity><!-- 운반 용량 대폭 증가 -->
+<Ancot_ExtraCaravanCarryCapacity>9999</Ancot_ExtraCaravanCarryCapacity><!-- 캐러밴 운반 용량 증가 -->
+<CaravanBonusSpeedFactor>9</CaravanBonusSpeedFactor><!-- 캐러밴 이동 속도 증가 -->
+<CaravanRidingSpeedFactor>9</CaravanRidingSpeedFactor><!-- 탑승 이동 속도 증가 -->
+<FlightCooldown>-9</FlightCooldown><!-- 비행 재사용 대기시간 감소 -->
+<MaxFlightTime>9</MaxFlightTime><!-- 최대 비행 시간 증가 -->
+<JumpRange MayRequire="Ludeon.RimWorld.Royalty">99</JumpRange><!-- 점프 거리 증가 -->
+<PawnTrapSpringChance>-1</PawnTrapSpringChance><!-- 플레이어 함정 발동 확률 감소 -->
+<TrapSpringChance>-1</TrapSpringChance><!-- 함정 발동 확률 감소 -->
+<!-- 작업, 연구 및 메카니터 보너스 -->
+<WorkSpeedGlobal>9</WorkSpeedGlobal><!-- 전반 작업 속도 증가 -->
+<GeneralLaborSpeed>9</GeneralLaborSpeed><!-- 일반 노동 속도 증가 -->
+<ResearchSpeed>9</ResearchSpeed><!-- 연구 속도 증가 -->
+<DoorOpenSpeed>9</DoorOpenSpeed><!-- 문 여는 속도 증가 -->
+<BiosculpterOccupantSpeed>9</BiosculpterOccupantSpeed><!-- 바이오스컬프터 작업 속도 증가 -->
+<GrowthVatOccupantSpeed>9</GrowthVatOccupantSpeed><!-- 성장촉진기 작업 속도 증가 -->
+<AnimalGatherSpeed>9</AnimalGatherSpeed><!-- 동물 생산물 수집 속도 증가 -->
+<FishingSpeed MayRequire="Ludeon.RimWorld.Odyssey">9</FishingSpeed><!-- 낚시 속도 증가 -->
+<ButcheryFleshSpeed>9</ButcheryFleshSpeed><!-- 육류 도축 속도 증가 -->
+<ButcheryMechanoidSpeed>9</ButcheryMechanoidSpeed><!-- 메카노이드 도축 속도 증가 -->
+<CleaningSpeed>9</CleaningSpeed><!-- 청소 속도 증가 -->
+<ConstructSuccessChance>9</ConstructSuccessChance><!-- 건설 성공 확률 증가 -->
+<ConstructionSpeed>9</ConstructionSpeed><!-- 건설 속도 증가 -->
+<CookSpeed>9</CookSpeed><!-- 요리 속도 증가 -->
+<DeepDrillingSpeed>9</DeepDrillingSpeed><!-- 심층 채굴 속도 증가 -->
+<DrugCookingSpeed>9</DrugCookingSpeed><!-- 약물 제조 속도 증가 -->
+<DrugSynthesisSpeed>9</DrugSynthesisSpeed><!-- 약물 합성 속도 증가 -->
+<FixBrokenDownBuildingSuccessChance>9</FixBrokenDownBuildingSuccessChance><!-- 고장난 건물 수리 성공 확률 증가 -->
+<HackingSpeed>9</HackingSpeed><!-- 해킹 속도 증가 -->
+<HackingStealth>9</HackingStealth><!-- 해킹 은폐 증가 -->
+<MiningSpeed>9</MiningSpeed><!-- 채굴 속도 증가 -->
+<PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">9</PilotingAbility><!-- 중력선 조종 능력 증가 -->
+<PlantWorkSpeed>9</PlantWorkSpeed><!-- 식물 작업 속도 증가 -->
+<PruningSpeed>9</PruningSpeed><!-- 가지치기 속도 증가 -->
+<ReadingSpeed>9</ReadingSpeed><!-- 독서 속도 증가 -->
+<SmeltingSpeed>9</SmeltingSpeed><!-- 제련 속도 증가 -->
+<SmoothingSpeed>9</SmoothingSpeed><!-- 벽 다듬기 속도 증가 -->
+<MedicalOperationSpeed>9</MedicalOperationSpeed><!-- 의료 작업 속도 증가 -->
+<MedicalSurgerySuccessChance>9</MedicalSurgerySuccessChance><!-- 수술 성공 확률 증가 -->
+<MedicalTendQuality>9</MedicalTendQuality><!-- 치료 품질 증가 -->
+<MedicalTendSpeed>9</MedicalTendSpeed><!-- 치료 속도 증가 -->
+<SubcoreEncodingSpeed>9</SubcoreEncodingSpeed><!-- 서브코어 인코딩 속도 증가 -->
+<WorkSpeedGlobalOffsetMech>9</WorkSpeedGlobalOffsetMech><!-- 메카노이드 작업 속도 증가 -->
+<MechBandwidth>9</MechBandwidth><!-- 메카노이드 대역폭 증가 -->
+<MechControlGroups>9</MechControlGroups><!-- 메카노이드 제어 그룹 증가 -->
+<MechRemoteRepairDistance>9</MechRemoteRepairDistance><!-- 원격 수리 거리 증가 -->
+<MechFormingSpeed>9</MechFormingSpeed><!-- 메카노이드 형성 속도 증가 -->
+<MechRemoteShieldDistance>9</MechRemoteShieldDistance><!-- 원격 보호막 거리 증가 -->
+<MechRemoteShieldEnergy>9</MechRemoteShieldEnergy><!-- 원격 보호막 에너지 증가 -->
+<MechRepairSpeed>9</MechRepairSpeed><!-- 메카노이드 수리 속도 증가 -->
+<TweaksGalore_StonecuttingSpeed MayRequire="neronix17.tweaksgalore">9</TweaksGalore_StonecuttingSpeed><!-- 석재 가공 속도 증가 -->
+<VBE_WritingSpeed MayRequire="vanillaexpanded.vbookse">9</VBE_WritingSpeed><!-- 글쓰기 속도 증가 -->
+<!-- 자원 생산량, 동물 조련 및 거래 보너스 -->
+<!-- <AnimalGatherYield>9</AnimalGatherYield>   -->
+<!-- 동물 생산량 증가 -->
+<!-- <AnimalProductsSellImprovement>9</AnimalProductsSellImprovement> -->
+<!-- 동물 생산물 판매가 증가 -->
+<!-- <ButcheryFleshEfficiency>9</ButcheryFleshEfficiency> -->
+<!-- 고기 도축 효율 증가 -->
+<!-- <ButcheryMechanoidEfficiency>9</ButcheryMechanoidEfficiency> -->
+<!-- 메카노이드 도축 효율 증가 -->
+<!-- <DrugHarvestYield>9</DrugHarvestYield> -->
+<!-- 약용 작물 수확량 증가 -->
+<!-- <DrugSellPriceImprovement>9</DrugSellPriceImprovement> -->
+<!-- 약물 판매가 증가 -->
+<!-- <FishingYield MayRequire="Ludeon.RimWorld.Odyssey">9</FishingYield> -->
+<!-- 낚시 수확량 증가 -->
+<!-- <ForagedNutritionPerDay>99</ForagedNutritionPerDay> -->
+<!-- 채집 영양량 증가 -->
+<!-- <LeatherAmount>9</LeatherAmount> -->
+<!-- 가죽 생산량 증가 -->
+<!-- <MeatAmount>9</MeatAmount> -->
+<!-- 고기 생산량 증가 -->
+<!-- <MiningYield>9</MiningYield>채굴 자원량 증가 -->
+<!-- <PlantHarvestYield>9</PlantHarvestYield>작물 수확량 증가 -->
+<!-- <NegotiationAbility>9</NegotiationAbility>협상 능력 증가 -->
+<!-- <TradePriceImprovement>9</TradePriceImprovement>거래 가격 개선 -->
+<!-- 학습, 사회 활동 및 환경 관련 효과 -->
+<TameAnimalChance>9</TameAnimalChance><!-- 동물 길들이기 확률 증가 -->
+<TrainAnimalChance>9</TrainAnimalChance><!-- 동물 훈련 확률 증가 -->
+<AnimalsLearningFactor>9</AnimalsLearningFactor><!-- 동물 학습 속도 증가 -->
+<GlobalLearningFactor>9</GlobalLearningFactor><!-- 전반 학습 속도 증가 -->
+<LearningRateFactor>9</LearningRateFactor><!-- 학습 속도 배율 증가 -->
+<SocialIdeoSpreadFrequencyFactor>9</SocialIdeoSpreadFrequencyFactor><!-- 이념 전파 빈도 증가 -->
+<SocialImpact>9</SocialImpact><!-- 사회적 영향력 증가 -->
+<PawnBeauty>9</PawnBeauty><!-- 외모 매력 증가 -->
+<Wildness>-1</Wildness><!-- 야생성 감소 -->
+<FilthRate>-1</FilthRate><!-- 오물 발생 감소 -->
+<ArrestSuccessChance>9</ArrestSuccessChance><!-- 체포 성공 확률 증가 -->
+<!-- <BondAnimalChanceFactor>9</BondAnimalChanceFactor> -->
+<!-- 동물 유대 확률 증가 -->
+<SlaveSuppressionFallRate>-1</SlaveSuppressionFallRate><!-- 노예 억압 감소 속도 감소 -->
+<SuppressionPower>9</SuppressionPower><!-- 억압 능력 증가 -->
+<HuntingStealth>9</HuntingStealth><!-- 사냥 은폐 증가 -->
+<JoyFallRateFactor>-1</JoyFallRateFactor><!-- 오락 감소 속도 감소 -->
+<ActivitySuppressionRate MayRequire="Ludeon.RimWorld.Anomaly">9</ActivitySuppressionRate><!-- 이상현상 활동 억제 증가 -->
+<MinimumContainmentStrength>99</MinimumContainmentStrength><!-- 최소 격리 강도 증가 -->
+<!-- 방어, 건강, 대사 및 온도 관련 보너스 -->
+<IncomingDamageFactor>-1</IncomingDamageFactor><!-- 받는 피해 제거 -->
+<InjuryHealingFactor>9</InjuryHealingFactor><!-- 부상 회복 속도 증가 -->
+<ImmunityGainSpeed>9</ImmunityGainSpeed><!-- 질병 면역 획득 속도 증가 -->
+<PainShockThreshold>9</PainShockThreshold><!-- 고통 쇼크 한계 증가 -->
+<LifespanFactor>9</LifespanFactor><!-- 수명 증가 -->
+<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance><!-- 독성 환경 저항 최대화 -->
+<Flammability>-1</Flammability><!-- 인화성 제거 -->
+<FoodPoisonChance>-1</FoodPoisonChance><!-- 식중독 확률 제거 -->
+<ComfyTemperatureMin>-99</ComfyTemperatureMin><!-- 쾌적 온도 하한 감소 -->
+<ComfyTemperatureMax>99</ComfyTemperatureMax><!-- 쾌적 온도 상한 증가 -->
+<ArmorRating_Blunt>9</ArmorRating_Blunt><!-- 둔상 방어력 증가 -->
+<ArmorRating_Heat>9</ArmorRating_Heat><!-- 열 방어력 증가 -->
+<ArmorRating_Sharp>9</ArmorRating_Sharp><!-- 날카로운 공격 방어력 증가 -->
+<EMPResistance>9</EMPResistance><!-- EMP 저항 증가 -->
+<!-- <Fertility MayRequire="Ludeon.RimWorld.Biotech">9</Fertility> -->
+<!-- 수정률 증가 -->
+<EatingSpeed>9</EatingSpeed><!-- 식사 속도 증가 -->
+<RawNutritionFactor MayRequire="Ludeon.RimWorld.Biotech">9</RawNutritionFactor><!-- 날것 영양 효율 증가 -->
+<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">9</VacuumResistance><!-- 진공 저항 증가 -->
+<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">9</HeatNullNaniteResistance><!-- 열 나노머신 저항 증가 -->
+<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</HeatNullNaniteEnvironmentResistance><!-- 환경 열 나노머신 저항 증가 -->
+<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">9</ColdNullNaniteResistance><!-- 냉기 나노머신 저항 증가 -->
+<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</ColdNullNaniteEnvironmentResistance><!-- 환경 냉기 나노머신 저항 증가 -->
+<RadiationResistance MayRequire="blackmarket420.kraltechindustries">9</RadiationResistance><!-- 방사능 저항 증가 -->
+<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</RadiationEnvironmentResistance><!-- 환경 방사능 저항 증가 -->
+<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">9</AntiOrgToxinResistance><!-- 유기체 독소 저항 증가 -->
+<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</AntiOrgToxinEnvironmentResistance><!-- 환경 유기체 독소 저항 증가 -->
+<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">9</RageVirusResistance><!-- 분노 바이러스 저항 증가 -->
+<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">9</RageVirusEnvironmentResistance><!-- 환경 분노 바이러스 저항 증가 -->
+<!-- 초능력, 헤모젠 및 이념 관련 효과 -->
+<PsychicSensitivity>9</PsychicSensitivity><!-- 초능력 민감도 증가 -->
+<MeditationFocusGain>9</MeditationFocusGain><!-- 명상 초점 획득 증가 -->
+<MeditationPlantGrowthOffset>9</MeditationPlantGrowthOffset><!-- 명상 식물 성장 효과 증가 -->
+<PsychicEntropyRecoveryRate>9</PsychicEntropyRecoveryRate><!-- 초능력 엔트로피 회복 증가 -->
+<PsychicEntropyGain>-1</PsychicEntropyGain><!-- 엔트로피 획득 제거 -->
+<PsychicEntropyMax>9</PsychicEntropyMax><!-- 최대 엔트로피 증가 -->
+<MentalBreakThreshold>-1</MentalBreakThreshold><!-- 정신붕괴 임계값 제거 -->
+<PsychicRitualQualityOffset MayRequire="Ludeon.RimWorld.Anomaly">9</PsychicRitualQualityOffset><!-- 초능력 의식 품질 증가 -->
+<VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsyfocusCostFactor><!-- 초점 비용 제거 -->
+<VPE_PsychicEntropyMinimum MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsychicEntropyMinimum><!-- 최소 엔트로피 감소 -->
+<RestFallRateFactor>-1</RestFallRateFactor><!-- 휴식 감소 속도 제거 -->
+<RestRateMultiplier>9</RestRateMultiplier><!-- 휴식 회복 속도 증가 -->
+<HemogenGainFactor>9</HemogenGainFactor><!-- 헤모젠 획득 증가 -->
+<EntityStudyRate MayRequire="Ludeon.RimWorld.Anomaly">9</EntityStudyRate><!-- 개체 연구 속도 증가 -->
+<StudyEfficiency MayRequire="Ludeon.RimWorld.Anomaly">9</StudyEfficiency><!-- 연구 효율 증가 -->
+<CertaintyLossFactor MayRequire="Ludeon.RimWorld.Ideology">-1</CertaintyLossFactor><!-- 확신도 감소 제거 -->
+<!-- 선택형 바닐라 익스팬디드 음식 및 낚시 효과 -->
+<VCE_FoodImprovementChance MayRequire="vanillaexpanded.vcooke">9</VCE_FoodImprovementChance><!-- 음식 개선 확률 증가 -->
+<VCEF_FishingLuckOffset MayRequire="vanillaexpanded.vcef">9</VCEF_FishingLuckOffset><!-- 낚시 행운 증가 -->
+<VCEF_FoodCondimentChance MayRequire="vanillaexpanded.vcooke">9</VCEF_FoodCondimentChance><!-- 음식 양념 확률 증가 -->
+<!-- 공격 관련 능력치: 참고용으로 포함했으며 현재 비활성화됨 -->
+<!-- <MeleeDamageFactor>9</MeleeDamageFactor> -->
+<!-- 근접 공격 피해량 증가, 비활성 -->
+<MeleeArmorPenetration>9</MeleeArmorPenetration>
+<!-- 근접 방어 관통 증가, 비활성 -->
+<MeleeHitChance>9</MeleeHitChance>
+<!-- 근접 명중률 증가, 비활성 -->
+<MeleeHitChanceIndoorsLitOffset>9</MeleeHitChanceIndoorsLitOffset>
+<!-- 실내 밝은 곳 근접 명중 보정, 비활성 -->
+<MeleeHitChanceOutdoorsDarkOffset>9</MeleeHitChanceOutdoorsDarkOffset>
+<!-- 야외 어두운 곳 근접 명중 보정, 비활성 -->
+<!-- <MeleeCooldownFactor>-0.75</MeleeCooldownFactor> -->
+<!-- 근접 공격 대기시간 감소, 비활성 -->
+<!-- <AimingDelayFactor>-1</AimingDelayFactor> -->
+<!-- 조준 지연 제거, 비활성 -->
+<ShootingAccuracyFactor_Long>9</ShootingAccuracyFactor_Long>
+<!-- 장거리 사격 정확도 증가, 비활성 -->
+<ShootingAccuracyFactor_Medium>9</ShootingAccuracyFactor_Medium>
+<!-- 중거리 사격 정확도 증가, 비활성 -->
+<ShootingAccuracyFactor_Short>9</ShootingAccuracyFactor_Short>
+<!-- 단거리 사격 정확도 증가, 비활성 -->
+<ShootingAccuracyFactor_Touch>9</ShootingAccuracyFactor_Touch>
+<!-- 접촉 거리 사격 정확도 증가, 비활성 -->
+<ShootingAccuracyIndoorsDarkOffset>9</ShootingAccuracyIndoorsDarkOffset>
+<!-- 실내 어둠 사격 보정, 비활성 -->
+<ShootingAccuracyIndoorsLitOffset>9</ShootingAccuracyIndoorsLitOffset>
+<!-- 실내 밝음 사격 보정, 비활성 -->
+<ShootingAccuracyOutdoorsDarkOffset>9</ShootingAccuracyOutdoorsDarkOffset>
+<!-- 야외 어둠 사격 보정, 비활성 -->
+<ShootingAccuracyOutdoorsLitOffset>9</ShootingAccuracyOutdoorsLitOffset>
+<!-- 야외 밝음 사격 보정, 비활성 -->
+<ShootingAccuracyPawn>9</ShootingAccuracyPawn>
+<!-- 사격 정확도 증가, 비활성 -->
+<MortarMissRadiusFactor>-1</MortarMissRadiusFactor>
+<!-- 박격포 빗나감 반경 감소, 비활성 -->
+<!-- <VEF_MeleeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_MeleeAttackDamageFactor> -->
+<!-- VEF 근접 공격 피해 증가, 비활성 -->
+<!-- <VEF_MeleeAttackSpeedFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_MeleeAttackSpeedFactor> -->
+<!-- VEF 근접 공격 속도 증가, 비활성 -->
+<!-- <VEF_RangeAttackDamageFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_RangeAttackDamageFactor> -->
+<!-- VEF 원거리 공격 피해 증가, 비활성 -->
+<!-- <VEF_RangeAttackSpeedFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">9</VEF_RangeAttackSpeedFactor> -->
+<!-- VEF 원거리 공격 속도 증가, 비활성 -->
+<!-- 방어 목적의 전투 능력치는 활성 상태 -->
+<MeleeDodgeChance>9</MeleeDodgeChance><!-- 근접 회피 확률 증가 -->
+<MeleeDodgeChanceIndoorsDarkOffset>9</MeleeDodgeChanceIndoorsDarkOffset><!-- 실내 어둠 회피 보정 -->
+<MeleeDodgeChanceIndoorsLitOffset>9</MeleeDodgeChanceIndoorsLitOffset><!-- 실내 밝음 회피 보정 -->
+<MeleeDodgeChanceOutdoorsDarkOffset>9</MeleeDodgeChanceOutdoorsDarkOffset><!-- 야외 어둠 회피 보정 -->
+<MeleeDodgeChanceOutdoorsLitOffset>9</MeleeDodgeChanceOutdoorsLitOffset><!-- 야외 밝음 회피 보정 -->
+<StaggerDurationFactor>-1</StaggerDurationFactor><!-- 경직 시간 제거 -->
+</statOffsets>
+<!-- 모든 신체 능력 보정 통합; 이동 보정은 God2의 높은 값을 유지 -->
+<capMods>
+<li><capacity>Consciousness</capacity><offset>9</offset></li><!-- 의식 능력 증가 -->
+<li><capacity>Moving</capacity><offset>9</offset></li><!-- 이동 능력 대폭 증가 -->
+<li><capacity>Manipulation</capacity><offset>9</offset></li><!-- 조작 능력 증가 -->
+<li><capacity>Talking</capacity><offset>9</offset></li><!-- 대화 능력 증가 -->
+<li><capacity>Eating</capacity><offset>9</offset></li><!-- 섭식 능력 증가 -->
+<li><capacity>Sight</capacity><offset>9</offset></li><!-- 시각 능력 증가 -->
+<li><capacity>Hearing</capacity><offset>9</offset></li><!-- 청각 능력 증가 -->
+<li><capacity>Breathing</capacity><offset>9</offset></li><!-- 호흡 능력 증가 -->
+<li><capacity>BloodFiltration</capacity><offset>9</offset></li><!-- 혈액 여과 능력 증가 -->
+<li><capacity>BloodPumping</capacity><offset>9</offset></li><!-- 혈액 펌프 능력 증가 -->
+<li><capacity>Metabolism</capacity><offset>9</offset></li><!-- 대사 능력 증가 -->
+</capMods>
+<!-- 개별 hediff 면역 유전자가 차단하는 모든 상태의 발생 방지 -->
+<hediffGiversCannotGive>
+<li>Alzheimers</li><!-- 알츠하이머 발생 방지 -->
+<li>Asthma</li><!-- 천식 발생 방지 -->
+<li>BadBack</li><!-- 허리 손상 발생 방지 -->
+<li>Bite</li><!-- 물림 상처 방지 -->
+<li>Blindness</li><!-- 실명 방지 -->
+<li>BloodLoss</li><!-- 출혈 발생 방지 -->
+<li>BloodRot</li><!-- 혈액 부패 방지 -->
+<li>Bruise</li><!-- 타박상 방지 -->
+<li>Burn</li><!-- 화상 방지 -->
+<li>Carcinoma</li><!-- 암종 방지 -->
+<li>Cataract</li><!-- 백내장 방지 -->
+<li>ChemicalBurn</li><!-- 화학 화상 방지 -->
+<li>ChemicalDamageModerate</li><!-- 중등도 화학 손상 방지 -->
+<li>ChemicalDamageSevere</li><!-- 중증 화학 손상 방지 -->
+<li>Cirrhosis</li><!-- 간경변 방지 -->
+<li>Crack</li><!-- 골절 방지 -->
+<li>Crush</li><!-- 압궤상 방지 -->
+<li>Cut</li><!-- 베인 상처 방지 -->
+<li>Dementia</li><!-- 치매 방지 -->
+<li>DirtInEyes</li><!-- 눈의 흙 이물질 방지 -->
+<li>ExecutionCut</li><!-- 처형 상처 방지 -->
+<li>FibrousMechanites</li><!-- 섬유성 메카나이트 방지 -->
+<li>Flu</li><!-- 독감 방지 -->
+<li>Frail</li><!-- 노쇠 방지 -->
+<li>Frostbite</li><!-- 동상 방지 -->
+<li>GravelInEyes</li><!-- 눈의 자갈 이물질 방지 -->
+<li>Gunshot</li><!-- 총상 방지 -->
+<li>GutWorms</li><!-- 장내 기생충 방지 -->
+<li>HearingLoss</li><!-- 청력 손실 방지 -->
+<li>HeartArteryBlockage</li><!-- 심장 동맥 폐색 방지 -->
+<li>HeartAttack</li><!-- 심장마비 방지 -->
+<li>Hypothermia</li><!-- 저체온증 방지 -->
+<li>InfantIllness</li><!-- 영아 질병 방지 -->
+<li>LungRot</li><!-- 폐 부패 방지 -->
+<li>Malaria</li><!-- 말라리아 방지 -->
+<li>Misc</li><!-- 기타 부상 방지 -->
+<li>MissingBodyPart</li><!-- 신체 부위 손실 방지 -->
+<li>MudInEyes</li><!-- 눈의 진흙 이물질 방지 -->
+<li>MuscleParasites</li><!-- 근육 기생충 방지 -->
+<li>Plague</li><!-- 흑사병 방지 -->
+<li>ResurrectionPsychosis</li><!-- 부활 정신병 방지 -->
+<li>SandInEyes</li><!-- 눈의 모래 이물질 방지 -->
+<li>Scaria</li><!-- 스카리아 방지 -->
+<li>Scratch</li><!-- 긁힌 상처 방지 -->
+<li>SensoryMechanites</li><!-- 감각 메카나이트 방지 -->
+<li>Shredded</li><!-- 찢긴 상처 방지 -->
+<li>SleepingSickness</li><!-- 수면병 방지 -->
+<li>Stab</li><!-- 자상 방지 -->
+<li>Sterilized</li><!-- 불임 방지 -->
+<li>SurgicalCut</li><!-- 수술 절개 방지 -->
+<li>TraumaSavant</li><!-- 외상성 천재성 방지 -->
+<li>WaterInEyes</li><!-- 눈의 물 이물질 방지 -->
+<li>WoundInfection</li><!-- 상처 감염 방지 -->
+<!-- 기본 God 정의에서 안정적으로 차단되지 않는다고 언급한 상태 -->
+<!-- <li>ParalyticAbasia</li><li>Bleeding</li> -->
+</hediffGiversCannotGive>
+<makeImmuneTo>
+<li>Alzheimers</li><!-- 알츠하이머 면역 -->
+<li>Asthma</li><!-- 천식 면역 -->
+<li>BadBack</li><!-- 허리 손상 면역 -->
+<li>Bite</li><!-- 물림 상처 면역 -->
+<li>Blindness</li><!-- 실명 면역 -->
+<li>BloodLoss</li><!-- 출혈 면역 -->
+<li>BloodRot</li><!-- 혈액 부패 면역 -->
+<li>Bruise</li><!-- 타박상 면역 -->
+<li>Burn</li><!-- 화상 면역 -->
+<li>Carcinoma</li><!-- 암종 면역 -->
+<li>Cataract</li><!-- 백내장 면역 -->
+<li>ChemicalBurn</li><!-- 화학 화상 면역 -->
+<li>ChemicalDamageModerate</li><!-- 중등도 화학 손상 면역 -->
+<li>ChemicalDamageSevere</li><!-- 중증 화학 손상 면역 -->
+<li>Cirrhosis</li><!-- 간경변 면역 -->
+<li>Crack</li><!-- 골절 면역 -->
+<li>Crush</li><!-- 압궤상 면역 -->
+<li>Cut</li><!-- 베인 상처 면역 -->
+<li>Dementia</li><!-- 치매 면역 -->
+<li>DirtInEyes</li><!-- 눈의 흙 이물질 면역 -->
+<li>ExecutionCut</li><!-- 처형 상처 면역 -->
+<li>FibrousMechanites</li><!-- 섬유성 메카나이트 면역 -->
+<li>Flu</li><!-- 독감 면역 -->
+<li>Frail</li><!-- 노쇠 면역 -->
+<li>Frostbite</li><!-- 동상 면역 -->
+<li>GravelInEyes</li><!-- 눈의 자갈 이물질 면역 -->
+<li>Gunshot</li><!-- 총상 면역 -->
+<li>GutWorms</li><!-- 장내 기생충 면역 -->
+<li>HearingLoss</li><!-- 청력 손실 면역 -->
+<li>HeartArteryBlockage</li><!-- 심장 동맥 폐색 면역 -->
+<li>HeartAttack</li><!-- 심장마비 면역 -->
+<li>Hypothermia</li><!-- 저체온증 면역 -->
+<li>InfantIllness</li><!-- 영아 질병 면역 -->
+<li>LungRot</li><!-- 폐 부패 면역 -->
+<li>Malaria</li><!-- 말라리아 면역 -->
+<li>Misc</li><!-- 기타 부상 면역 -->
+<li>MissingBodyPart</li><!-- 신체 부위 손실 면역 -->
+<li>MudInEyes</li><!-- 눈의 진흙 이물질 면역 -->
+<li>MuscleParasites</li><!-- 근육 기생충 면역 -->
+<li>Plague</li><!-- 흑사병 면역 -->
+<li>ResurrectionPsychosis</li><!-- 부활 정신병 면역 -->
+<li>SandInEyes</li><!-- 눈의 모래 이물질 면역 -->
+<li>Scaria</li><!-- 스카리아 면역 -->
+<li>Scratch</li><!-- 긁힌 상처 면역 -->
+<li>SensoryMechanites</li><!-- 감각 메카나이트 면역 -->
+<li>Shredded</li><!-- 찢긴 상처 면역 -->
+<li>SleepingSickness</li><!-- 수면병 면역 -->
+<li>Stab</li><!-- 자상 면역 -->
+<li>Sterilized</li><!-- 불임 면역 -->
+<li>SurgicalCut</li><!-- 수술 절개 면역 -->
+<li>TraumaSavant</li><!-- 외상성 천재성 면역 -->
+<li>WaterInEyes</li><!-- 눈의 물 이물질 면역 -->
+<li>WoundInfection</li><!-- 상처 감염 면역 -->
+</makeImmuneTo>
+</GeneDef>
 </Defs>
