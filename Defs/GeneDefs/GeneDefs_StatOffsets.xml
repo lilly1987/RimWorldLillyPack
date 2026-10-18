@@ -819,7 +819,7 @@
 	</GeneDef>
 
 	<GeneDef ParentName="CheatsStatOffsets">
-		<defName>CarryingCapacity999</defName>
+		<defName>CarryingCapacity99</defName>
 		<label>Carrying Capacity +99</label>
 		<description>Cheat gene. Offsets Carrying Capacity by +99.</description>
 		<iconPath>Genes/Icons/cheat</iconPath>

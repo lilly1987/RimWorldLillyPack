@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef ParentName="CheatsPresets">
+		<defName>God2</defName>
+		<label>God 2</label>
+		<description>Everything. No attack damage.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<statOffsets>
+			<MoveSpeed>15</MoveSpeed>
+			<WorkSpeedGlobal>9</WorkSpeedGlobal>
+			<GeneralLaborSpeed>9</GeneralLaborSpeed>
+			<ResearchSpeed>9</ResearchSpeed>
+			<DoorOpenSpeed>9</DoorOpenSpeed>
+			<BiosculpterOccupantSpeed>9</BiosculpterOccupantSpeed>
+			<MeleeDodgeChance>1</MeleeDodgeChance>
+			<MeleeCooldownFactor>-0.5</MeleeCooldownFactor>
+			<AimingDelayFactor>-1</AimingDelayFactor>
+			<TrapSpringChance>-1</TrapSpringChance>
+			<FishingSpeed MayRequire="Ludeon.RimWorld.Odyssey">9</FishingSpeed>
+			<PilotingAbility MayRequire="Ludeon.RimWorld.Odyssey">9</PilotingAbility>
+
+			<Ancot_ExtraCaravanCarryCapacity>9999</Ancot_ExtraCaravanCarryCapacity>
+			<CarryingCapacity>9999</CarryingCapacity>
+			<!-- <MeleeDamageFactor>9</MeleeDamageFactor> -->
+			<MeleeArmorPenetration>9</MeleeArmorPenetration>
+			<MeleeHitChance>1</MeleeHitChance>
+			<MiningSpeed>9</MiningSpeed>
+			<ConstructionSpeed>9</ConstructionSpeed>
+			<StaggerDurationFactor>-1</StaggerDurationFactor>
+
+			<IncomingDamageFactor>-1</IncomingDamageFactor>
+			<InjuryHealingFactor>9</InjuryHealingFactor>
+			<ImmunityGainSpeed>9</ImmunityGainSpeed>
+			<PainShockThreshold>1</PainShockThreshold>
+			<LifespanFactor>9</LifespanFactor>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<Flammability>-1</Flammability>
+			<FoodPoisonChance>-1</FoodPoisonChance>
+			<ComfyTemperatureMin>-99</ComfyTemperatureMin>
+			<ComfyTemperatureMax>99</ComfyTemperatureMax>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
+			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteResistance>
+			<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteEnvironmentResistance>
+			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteResistance>
+			<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteEnvironmentResistance>
+			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationResistance>
+			<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationEnvironmentResistance>
+			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinResistance>
+			<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinEnvironmentResistance>
+			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusResistance>
+			<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusEnvironmentResistance>
+			
+			<PsychicSensitivity>9</PsychicSensitivity>
+			<MeditationFocusGain>9</MeditationFocusGain>
+			<PsychicEntropyRecoveryRate>9</PsychicEntropyRecoveryRate>
+			<PsychicEntropyGain>-1</PsychicEntropyGain>
+			<MentalBreakThreshold>-1</MentalBreakThreshold>
+			<PsychicRitualQualityOffset MayRequire="Ludeon.RimWorld.Anomaly">1</PsychicRitualQualityOffset>
+			<VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsyfocusCostFactor>
+			<VPE_PsychicEntropyMinimum MayRequire="vanillaexpanded.vpsycastse">-1</VPE_PsychicEntropyMinimum>
+			
+			<SubcoreEncodingSpeed>9</SubcoreEncodingSpeed>
+			<MechBandwidth>50</MechBandwidth>
+			<MechControlGroups>5</MechControlGroups>
+			<WorkSpeedGlobalOffsetMech>9</WorkSpeedGlobalOffsetMech>
+			<MechRemoteRepairDistance>9</MechRemoteRepairDistance>
+			<MechFormingSpeed>9</MechFormingSpeed>
+			<MechRemoteShieldDistance>9</MechRemoteShieldDistance>
+			<MechRemoteShieldEnergy>9</MechRemoteShieldEnergy>
+			<MechRepairSpeed>9</MechRepairSpeed>
+			
+			<HeatNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteResistance>
+			<HeatNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</HeatNullNaniteEnvironmentResistance>
+			<ColdNullNaniteResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteResistance>
+			<ColdNullNaniteEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</ColdNullNaniteEnvironmentResistance>
+			<RadiationResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationResistance>
+			<RadiationEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RadiationEnvironmentResistance>
+			<AntiOrgToxinResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinResistance>
+			<AntiOrgToxinEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</AntiOrgToxinEnvironmentResistance>
+			<RageVirusResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusResistance>
+			<RageVirusEnvironmentResistance MayRequire="blackmarket420.kraltechindustries">1</RageVirusEnvironmentResistance>
+		</statOffsets>
+		<capMods>
+			<li>
+				<capacity>Manipulation</capacity>
+				<offset>1</offset>
+			</li>
+			<li>
+				<capacity>Moving</capacity>
+				<offset>1</offset>
+			</li>
+			<li>
+				<capacity>Consciousness</capacity>
+				<offset>2</offset>
+			</li>
+		</capMods>
+		<hediffGiversCannotGive>
+			<li>Carcinoma</li>
+			<li>HeartAttack</li>
+			<li>BadBack</li>
+			<li>Frail</li>
+			<li>Cataract</li>
+			<li>Dementia</li>
+			<li>Alzheimers</li>
+			<li>Asthma</li>
+			<li>HeartArteryBlockage</li>
+			<li>SensoryMechanites</li>
+			<li>WoundInfection</li>
+			<li>MissingBodyPart</li>
+			<li>Misc</li>
+			<li>Burn</li>
+			<li>ChemicalBurn</li>
+			<li>Crush</li>
+			<li>Crack</li>
+			<li>Cut</li>
+			<li>SurgicalCut</li>
+			<li>ExecutionCut</li>
+			<li>Scratch</li>
+			<li>Bite</li>
+			<li>Stab</li>
+			<li>Gunshot</li>
+			<li>Shredded</li>
+			<li>Bruise</li>
+			<li>Frostbite</li>
+			<li>Blindness</li>
+			<li>HearingLoss</li>
+			<li>TraumaSavant</li>
+			<li>ChemicalDamageModerate</li>
+			<li>ChemicalDamageSevere</li>
+			<li>Cirrhosis</li>
+			<li>ResurrectionPsychosis</li>
+			<li>Scaria</li>
+			<li>Sterilized</li>
+			<li>BloodLoss</li>
+			<!-- Can't seem to block these, might need more definitions that they are 
+				<li>ParalyticAbasia</li>
+				<li>Bleeding</li>
+			-->
+		</hediffGiversCannotGive>
+		<makeImmuneTo>
+			<li>Flu</li>
+			<li>Malaria</li>
+			<li>SleepingSickness</li>
+			<li>Plague</li>
+			<li>WoundInfection</li>
+			<li>LungRot</li>
+			<li>GutWorms</li>
+			<li>MuscleParasites</li>
+			<li>FibrousMechanites</li>
+			<li>BloodRot</li>
+			<li>InfantIllness</li>
+		</makeImmuneTo>
+	</GeneDef>
+
+
+</Defs>

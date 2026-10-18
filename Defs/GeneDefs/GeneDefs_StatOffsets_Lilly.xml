@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Single-stat cheat genes, grouped by category. defNames are kept as-is so old saves still load; the labels show the real value. -->
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CarryingCapacity9</defName>
+		<label>Carrying Capacity +9</label>
+		<description>Cheat gene. Offsets Carrying Capacity by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>3</displayOrderInCategory>
+		<statOffsets>
+			<CarryingCapacity>9</CarryingCapacity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CarryingCapacity999</defName>
+		<label>Carrying Capacity +999</label>
+		<description>Cheat gene. Offsets Carrying Capacity by +999.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>4</displayOrderInCategory>
+		<statOffsets>
+			<CarryingCapacity>999</CarryingCapacity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>CarryingCapacity9999</defName>
+		<label>Carrying Capacity +9999</label>
+		<description>Cheat gene. Offsets Carrying Capacity by +9999.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>5</displayOrderInCategory>
+		<statOffsets>
+			<CarryingCapacity>9999</CarryingCapacity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>Ancot_ExtraCaravanCarryCapacity9</defName>
+		<label>Caravan Carrying Capacity +9</label>
+		<description>Cheat gene. Offsets Caravan Carrying Capacity by +9.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<Ancot_ExtraCaravanCarryCapacity>9</Ancot_ExtraCaravanCarryCapacity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>Ancot_ExtraCaravanCarryCapacity99</defName>
+		<label>Caravan Carrying Capacity +99</label>
+		<description>Cheat gene. Offsets Caravan Carrying Capacity by +99.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>6</displayOrderInCategory>
+		<statOffsets>
+			<Ancot_ExtraCaravanCarryCapacity>99</Ancot_ExtraCaravanCarryCapacity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>Ancot_ExtraCaravanCarryCapacity999</defName>
+		<label>Caravan Carrying Capacity +999</label>
+		<description>Cheat gene. Offsets Caravan Carrying Capacity by +999.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>7</displayOrderInCategory>
+		<statOffsets>
+			<Ancot_ExtraCaravanCarryCapacity>999</Ancot_ExtraCaravanCarryCapacity>
+		</statOffsets>
+	</GeneDef>
+
+	<GeneDef ParentName="CheatsStatOffsets">
+		<defName>Ancot_ExtraCaravanCarryCapacity9999</defName>
+		<label>Caravan Carrying Capacity +9999</label>
+		<description>Cheat gene. Offsets Caravan Carrying Capacity by +9999.</description>
+		<iconPath>Genes/Icons/cheat</iconPath>
+		<displayCategory>Cheats-Movement</displayCategory>
+		<displayOrderInCategory>8</displayOrderInCategory>
+		<statOffsets>
+			<Ancot_ExtraCaravanCarryCapacity>9999</Ancot_ExtraCaravanCarryCapacity>
+		</statOffsets>
+	</GeneDef>
+
+
+</Defs>
